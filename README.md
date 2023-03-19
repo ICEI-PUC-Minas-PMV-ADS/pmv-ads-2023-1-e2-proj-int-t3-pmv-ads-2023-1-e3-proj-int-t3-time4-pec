@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Pront Clinic
 
 `CURSO`
 
@@ -10,14 +10,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* David Gomes Chaves Andrade
+* Gustavo Lemos dos Santos
+* Fernando de Araújo Abreu
+* Kevin Issamu Muramoto
 
 ## Orientador
 
-* Nome completo do professor 1
+* Jose Wilson da Costa
 
 ## Instruções de utilização
 
