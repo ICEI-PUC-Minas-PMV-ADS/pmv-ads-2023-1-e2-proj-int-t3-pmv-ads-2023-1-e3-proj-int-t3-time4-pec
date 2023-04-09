@@ -14,6 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Gustavo Lemos dos Santos
 * Fernando de Araújo Abreu
 * Kevin Issamu Muramoto
+* Leonardo Rodrigues Barbosa Maia
 
 ## Orientador
 
