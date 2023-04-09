@@ -1,10 +1,10 @@
 # Pront Clinic
 
-`CURSO`
+`Análise e Dsenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto – Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`1º Semestre 2023`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
