@@ -1,15 +1,18 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir:
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+<br>
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
-
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
-
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+|Etapa de Teste| Tarefa a ser executada |Métrica de usabilidade | Critério de aceitação | Perfil do usuário |
+|--------------------|------------------------------------|----------------------------------------| --------------- | ----------------------|
+|1| Visualizar os dados do perfil do usuário | Taxa de sucesso da tarefa|Taxa de sucesso igual ou maior a 90% |Todos|
+|2| Visualizar dados pessoas de um paciente | Taxa de sucesso da tarefa|Taxa de sucesso igual ou maior a 95% |Todos |
+|3|Visualizar exames de um paciente |Taxa de sucesso da tarefa|Taxa de sucesso igual ou maior a 95% |Todos |
+|4|Adicionar uma nova especialidade na consulta de um paciente|Tempo para completar a tarefa|Tempo para completar a tarefa deve ser igual ou inferior a 1 minuto |Clinico |
+|5|Adicionar laudo |Taxa de sucesso da tarefa |Taxa de sucesso igual ou maior a 95% |Clinico|
+|6|Marcar um novo exame|Tempo para completar a tarefa|Média igual ou inferior a 1 minuto. |Recepção|
+|7 |Adicionar um novo paciente|Tempo para completar a tarefa |Média igual ou inferior a 1 minuto e 30 segundos. |Recepção |
+|8|Buscar por um paciente existente |Número de tentativas|Máximo de 2 tentativas |Todos |
+|9|Realizar um agendamento de consulta |Tempo para completar a tarefa |Tempo para completar a tarefa deve ser igual ou inferior a 30 segundos |Recepção |
+|10|Encontrar opção para exportar valores totais de exames para Excel |Tempo para completar a tarefa |Média igual ou inferior a 30 segundos. |Financeiro |
