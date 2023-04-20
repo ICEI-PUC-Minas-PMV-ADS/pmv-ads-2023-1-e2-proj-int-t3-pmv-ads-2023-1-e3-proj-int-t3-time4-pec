@@ -1,4 +1,4 @@
-# Pront Clinic
+# Pront Clinic - Prontuário Eletrônico Clínico
 
 `Análise e Dsenvolvimento de Sistemas`
 
