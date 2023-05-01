@@ -1,0 +1,86 @@
+﻿@model IEnumerable<SistemaHospitalar.Domain.DTO.RecepcionistaDTO>
+
+@if (TempData["MensagemSucesso"] != null)
+{
+            <div class="alert alert-success alert-dismissible" role="alert">
+               <div> @TempData["MensagemSucesso"]</div>
+               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+        <div class="alert alert-danger d-flex align-items-center" role="alert">
+        @TempData["MensagemErro"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+}
+
+<h1 class="display-4 mt-5 text-center">Listagem de Recepcionistas</h1>
+
+<p>
+    <a class="btn btn-primary mt-5" asp-action="Create">Cadastrar Recepcionista</a>
+</p>
+
+<div class="index table-responsive">
+<table class="table table-striped table-hover table-sm table-dark" id="table-index">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pessoa.nome)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.pessoa.cpf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pessoa.rg)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bloco)
+            </th>
+            <th>
+                Endereços
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pessoa.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pessoa.cpf)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pessoa.rg)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.bloco)
+                </td>
+                <td>
+
+                    <a href="#" class="btn btn-success btn-sm" onclick="EnderecoIndex(@item.pessoaId)" data-bs-toggle="modal" data-bs-target="#addressModal">
+                        @(@item.pessoa.enderecos != null && @item.pessoa.enderecos.Any() ? @item.pessoa.enderecos.Count() : 0)
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-outline-primary btn-sm" asp-action="Edit" asp-route-id="@item.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Editar">Editar</a> 
+                    <a class="btn btn-outline-warning btn-sm" asp-action="Details" asp-route-id="@item.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Ver Detalhes">Detalhes</a> 
+                    <a class="btn btn-outline-danger btn-sm"  href="#" onclick="deleteRegistro(@item.id, 'Recepcionista', '/Recepcionistas/Delete')" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Excluir">Excluir </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+
+

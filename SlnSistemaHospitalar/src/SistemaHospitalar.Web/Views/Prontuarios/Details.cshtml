@@ -1,0 +1,64 @@
+﻿@model SistemaHospitalar.Domain.DTO.EnderecoDTO
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="menu-title display-3 text-center mt-3">@Model.rua, @Model.numero</h1>
+
+<div>
+    <h4 class="text-white mt-5">Dados da Pessoa</h4>
+    <hr class="bg-light"/>
+    <dl class="row">
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.id)
+        </dd>
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.cep)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.cep)
+        </dd>
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.rua)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.rua)
+        </dd>
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.numero)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.numero)
+        </dd>
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.bairro)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.bairro)
+        </dd>
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.cidade)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.cidade)
+        </dd>
+        <dt class = "col-sm-2 menu-title">
+            @Html.DisplayNameFor(model => model.uf)
+        </dt>
+        <dd class = "col-sm-10 text-dark">
+            @Html.DisplayFor(model => model.uf)
+        </dd>
+    </dl>
+</div>
+<div class="mt-5">
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Editar">
+        <img  width="30" height="30" src="~/img/editar.png">
+    </a> 
+    <a class="btn btn-dark" asp-action="Index" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Voltar para lista">
+        <img width="30" height="30" src="~/img/back.png"/>
+    </a>
+</div>

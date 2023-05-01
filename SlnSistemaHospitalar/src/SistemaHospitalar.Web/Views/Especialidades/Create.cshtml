@@ -1,0 +1,41 @@
+﻿@model SistemaHospitalar.Domain.DTO.EspecialidadeMedicaDTO
+
+@{
+    ViewData["Title"] = "Criar";
+}
+
+<div class="text-center title-page">
+    <h1 class="display-1 text-success fw-bold mt-5 mb-5"><strong>Adicionar Especialidade Médica</strong></h1>
+</div>                      
+
+
+
+<form asp-controller="Especialidades" asp-action="Create" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group text-dark">
+         <label asp-for="nome" for="nome" class="color-label">Especialidade:</label>
+        <input asp-for="nome" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe a especialidade">
+        <span asp-validation-for="nome" class="text-danger"></span>  
+    </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Cadastrar" class="btn btn-primary btn-block w-100" />
+                <a class="btn btn-dark btn-block w-100 mt-3" asp-action="Index">Back to List</a>
+            </div>
+         </div>
+    
+    </div>
+ </div> 
+                                   
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+

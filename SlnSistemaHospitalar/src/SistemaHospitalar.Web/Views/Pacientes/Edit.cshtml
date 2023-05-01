@@ -1,0 +1,60 @@
+﻿@using SistemaHospitalar.Domain.Enum
+@model SistemaHospitalar.Domain.DTO.PacienteDTO
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<div class="text-center title-page">
+    <h1 class="display-1 fw-bold text-success mt-5 mb-5"><strong>Editar Paciente</strong></h1>
+</div>                      
+
+
+<form asp-controller="Pacientes" asp-action="Edit" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group">
+        <input asp-for="id" type="hidden" class="form-control" aria-describedby="emailHelp">
+        <input asp-for="pessoaId" type="hidden" class="form-control" aria-describedby="emailHelp">
+    </div>
+
+    <div class="form-group">
+    <label asp-for="convenioId" for="convenioId" class="color-label">Nome do Convênio</label>
+    <select asp-for="convenioId" class="form-control" asp-items="ViewBag.convenioId"></select>
+    <span asp-validation-for="convenioId" class="text-danger"></span>  
+    </div>
+
+    <div class="form-group mt-2 ">
+        <label asp-for="situacao" class="control-label login-title"></label>
+        <select asp-for="situacao" class="form-control">
+            <option value="0">Selecione</option>
+            <option value="@SituacaoEnum.Obito">Óbito</option>
+            <option value="@SituacaoEnum.Alta">Alta</option>
+            <option value="@SituacaoEnum.Ativo">Ativo</option>
+        </select>
+        <span asp-validation-for="situacao" class="text-danger"></span>
+    </div>
+        <div class="buttons-edit-create form-group mt-3 d-flex">
+            <input type="submit" class="btn btn-warning btn-sm float-start btn-block w-100" id="button-editar" value="Salvar">
+            <a onclick="editPessoa(`../../Pessoas/Edit/@Model.pessoaId`)" class="btn btn-sm btn-primary ms-2 float-end btn-bloc w-100" data-bs-toggle="modal" data-bs-target="#formModal">Editar Dados Pessoais</a>
+            
+         </div> 
+         <a class="btn btn-dark float-none btn-bloc w-100 mt-3" asp-action="Index">Voltar para Lista</a>
+</div>
+
+    </div>
+ </div>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+              
+    }
+
+
+

@@ -1,0 +1,81 @@
+﻿@using SistemaHospitalar.Domain.Entities
+@model SistemaHospitalar.Domain.DTO.PessoaDTO
+
+
+<form asp-controller="Pessoas" asp-action="Edit" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group text-dark">
+         <label asp-for="nome" for="nome" class="color-label">Nome</label>
+        <input asp-for="nome" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o nome">
+        <span asp-validation-for="nome" class="text-danger"></span>  
+
+        <label asp-for="sobrenome" for="sobrenome" class="color-label">Sobrenome</label>
+        <input asp-for="sobrenome" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o sobrenome">
+        <span asp-validation-for="sobrenome" class="text-danger"></span>  
+
+        <label asp-for="email" for="email" class="color-label">E-mail</label>
+        <input asp-for="email" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o email">
+        <span asp-validation-for="email" class="text-danger"></span>  
+
+        <label asp-for="telefone" for="telefone" class="color-label">Telefone</label>
+        <input asp-for="telefone" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o telefone">
+        <span asp-validation-for="telefone" class="text-danger"></span>  
+
+        <label asp-for="cpf" for="cpf" class="color-label">CPF</label>
+        <input asp-for="cpf" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o CPF">
+        <span asp-validation-for="cpf" class="text-danger"></span>  
+
+        <label asp-for="dataNascimento" for="dataNascimento" class="color-label">Data de Nascimento</label>
+        <input asp-for="dataNascimento" class="form-control"  aria-describedby="emailHelp" placeholder="Informe a data de nascimento">
+        <span asp-validation-for="dataNascimento" class="text-danger"></span>  
+
+         <label asp-for="naturalidade" for="naturalidade" class="color-label">Naturalidade</label>
+        <input asp-for="naturalidade" class="form-control"  aria-describedby="emailHelp" placeholder="Informe a naturalidade">
+        <span asp-validation-for="naturalidade" class="text-danger"></span>
+
+        <div class="form-group mt-2 ">
+            <label asp-for="sexo" class="control-label login-title"></label>
+            <select asp-for="sexo" class="form-control">
+                <option value="0">Selecione</option>
+                <option value="@PerfilEnum.Admin">Administrador</option>
+                <option value="@PerfilEnum.Medico">Medico</option>
+                <option value="@PerfilEnum.Paciente">Paciente</option>
+                <option value="@PerfilEnum.Recepcionista">Recepcionista</option>
+            </select>
+            <span asp-validation-for="sexo" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mt-2 ">
+            <label asp-for="perfil" class="control-label login-title"></label>
+            <select asp-for="perfil" class="form-control">
+                <option value="0">Selecione</option>
+                <option value="@PerfilEnum.Admin">Administrador</option>
+                <option value="@PerfilEnum.Medico">Medico</option>
+                <option value="@PerfilEnum.Paciente">Paciente</option>
+                <option value="@PerfilEnum.Recepcionista">Recepcionista</option>
+            </select>
+            <span asp-validation-for="perfil" class="text-danger"></span>
+        </div>
+
+
+    </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Cadastrar" class="btn btn-primary btn-block w-100" />
+            </div>
+         </div>
+
+    </div>
+ </div> 
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
+
+

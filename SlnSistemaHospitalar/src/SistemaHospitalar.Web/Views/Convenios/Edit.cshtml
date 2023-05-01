@@ -1,0 +1,45 @@
+﻿@model SistemaHospitalar.Domain.DTO.ConvenioDTO
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<div class="text-center title-page">
+    <h1 class="display-1 text-success fw-bold mt-5 mb-5"><strong>Editar Convênio</strong></h1>
+</div>                      
+
+
+
+<form asp-controller="Convenios" asp-action="Edit" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group">
+         <label asp-for="nome" for="nome" class="color-label">Convênio</label>
+        <input asp-for="nome" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Informe o convênio">
+        <span asp-validation-for="nome" class="text-danger"></span>    
+    </div>
+        <div class="buttons-edit-create form-group mt-3">
+            <input type="submit" class="btn btn-warning w-100 btn-block" id="button-editar" value="Editar">
+            <a class="btn btn-dark btn-block w-100 mt-3" asp-action="Index">Back to List</a>
+         </div> 
+</div>
+
+    </div>
+ </div>
+</form>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}
+
+
+
+
+
+

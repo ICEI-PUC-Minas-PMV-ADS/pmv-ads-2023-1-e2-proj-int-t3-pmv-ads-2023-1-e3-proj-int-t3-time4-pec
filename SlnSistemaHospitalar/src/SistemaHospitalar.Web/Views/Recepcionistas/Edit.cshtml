@@ -1,0 +1,49 @@
+﻿@model SistemaHospitalar.Domain.DTO.RecepcionistaDTO
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<div class="text-center title-page">
+    <h1 class="display-1 fw-bold text-success mt-5 mb-5"><strong>Editar Convênio</strong></h1>
+</div>                      
+
+<form asp-controller="Recepcionistas" asp-action="Edit" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group">
+
+        <input type="hidden" asp-for="id" for="id" class="form-control" aria-describedby="emailHelp">
+        <input type="hidden" asp-for="pessoaId" class="form-control" asp-items="ViewBag.pessoaId">
+
+
+         <label asp-for="bloco" for="bloco" class="color-label">Bloco:</label>
+        <input asp-for="bloco" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Informe o bloco">
+        <span asp-validation-for="bloco" class="text-danger"></span>    
+    </div>
+        <div class="buttons-edit-create form-group mt-3 d-flex">
+            <input type="submit" class="btn btn-warning btn-sm float-start btn-block w-100" id="button-editar" value="Salvar">
+            <a onclick="editPessoa(`../../Pessoas/Edit/@Model.pessoaId`)" class="btn btn-sm btn-primary ms-2 float-end btn-bloc w-100" data-bs-toggle="modal" data-bs-target="#formModal">Editar Dados Pessoais</a>
+
+         </div> 
+         <a class="btn btn-dark float-none btn-bloc w-100 mt-3" asp-action="Index">Voltar para Lista</a>
+</div>
+
+    </div>
+ </div>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}
+
+
+
+
+
+

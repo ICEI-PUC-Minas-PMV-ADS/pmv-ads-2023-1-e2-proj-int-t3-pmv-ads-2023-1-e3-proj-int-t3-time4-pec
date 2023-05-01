@@ -1,0 +1,86 @@
+﻿@using SistemaHospitalar.Domain.Entities
+@model SistemaHospitalar.Domain.DTO.PessoaDTO
+
+
+@*<form asp-controller="Pessoas" asp-action="Edit" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group text-dark">*@
+        <input asp-for="id" type="hidden" class="form-control" id="idEdit" aria-describedby="emailHelp">
+
+
+         <label asp-for="nome" for="nome" class="color-label mt-3">Nome</label>
+        <input asp-for="nome" type="text" class="form-control" id="nomeEdit" aria-describedby="emailHelp" placeholder="Informe o nome">
+        <span asp-validation-for="nome" class="text-danger"></span>
+
+<label asp-for="sobrenome" for="sobrenome" class="color-label mt-3">Sobrenome</label>
+        <input asp-for="sobrenome" type="text" class="form-control" id="sobrenomeEdit"   aria-describedby="emailHelp" placeholder="Informe o sobrenome">
+        <span asp-validation-for="sobrenome" class="text-danger"></span>
+
+<label asp-for="email" for="email" class="color-label mt-3">E-mail</label>
+        <input asp-for="email" type="text" class="form-control" id="emailEdit"  aria-describedby="emailHelp" placeholder="exemplo@exemplo.com">
+        <span asp-validation-for="email" class="text-danger"></span>
+
+<label asp-for="senha" for="senha" class="color-label mt-3">Senha</label>
+        <input asp-for="senha" type="password" class="form-control" id="senhaEdit"  aria-describedby="emailHelp" placeholder="Informe a senha nova">
+        <span asp-validation-for="senha" class="text-danger"></span>
+
+<label asp-for="telefone" for="telefone" class="color-label mt-3">Telefone</label>
+        <input asp-for="telefone" type="text" class="form-control" id="telefoneEdit"  aria-describedby="emailHelp" placeholder="(DDD) 0000-0000">
+        <span asp-validation-for="telefone" class="text-danger"></span>
+
+<label asp-for="cpf" for="cpf" class="color-label mt-3">CPF</label>
+        <input asp-for="cpf" type="text" class="form-control" id="cpfEdit"  aria-describedby="emailHelp" placeholder="000.000.000-00">
+        <span asp-validation-for="cpf" class="text-danger"></span>
+
+<label asp-for="rg" for="rg" class="color-label mt-3">RG:</label>
+        <input asp-for="rg" type="text" class="form-control" id="rgEdit"  aria-describedby="emailHelp" placeholder="0.000.000">
+        <span asp-validation-for="rg" class="text-danger"></span>
+
+<label asp-for="dataNascimento" for="dataNascimento" class="color-label mt-3">Data de Nascimento</label>
+        <input asp-for="dataNascimento" class="form-control" id="nascEdit"  aria-describedby="emailHelp" placeholder="Informe a data de nascimento">
+        <span asp-validation-for="dataNascimento" class="text-danger"></span>
+
+<label asp-for="naturalidade" for="naturalidade" class="color-label mt-3">Naturalidade</label>
+        <input asp-for="naturalidade" class="form-control" id="natEdit"  aria-describedby="emailHelp" placeholder="Exemplo: Cidade/SC">
+        <span asp-validation-for="naturalidade" class="text-danger"></span>
+
+        <div class="form-group mt-2 ">
+            <label asp-for="sexo" class="control-label login-title "></label>
+            <select asp-for="sexo" class="form-control" id="sexoEdit" >
+                <option value="0">Selecione</option>
+                <option value="@SexoEnum.Feminino">Feminino</option>
+                <option value="@SexoEnum.Masculino">Masculino</option>
+                <option value="@SexoEnum.NãoBinario">Não-Binário</option>
+                <option value="@SexoEnum.Outros">Outros</option>
+            </select>
+            <span asp-validation-for="sexo" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mt-2 ">
+            <label asp-for="perfil" class="control-label login-title"></label>
+            <select asp-for="perfil" class="form-control" id="perfilEdit" >
+                <option value="0">Selecione</option>
+                <option value="@PerfilEnum.Admin">Administrador</option>
+                <option value="@PerfilEnum.Medico">Medico</option>
+                <option value="@PerfilEnum.Paciente">Paciente</option>
+                <option value="@PerfilEnum.Recepcionista">Recepcionista</option>
+            </select>
+            <span asp-validation-for="perfil" class="text-danger"></span>
+        </div>
+
+        <input asp-for="createdOn" type="hidden" class="form-control" id="createdEdit"  aria-describedby="emailHelp">
+
+
+
+<a class="btn btn-warning btn-block w-100 mt-3" href="#" onclick="editControllerPessoa(@Model.id, `../../Pessoas/Edit/@Model.id`)">Salvar</a>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
+
+
