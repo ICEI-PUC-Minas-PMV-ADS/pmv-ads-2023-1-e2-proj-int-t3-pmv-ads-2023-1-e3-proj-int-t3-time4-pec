@@ -1,0 +1,17 @@
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Debug\net6.0\SistemaHospitalar.Infra.Data.deps.json
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Debug\net6.0\SistemaHospitalar.Infra.Data.runtimeconfig.json
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Debug\net6.0\SistemaHospitalar.Infra.Data.dll
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Debug\net6.0\SistemaHospitalar.Infra.Data.pdb
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Debug\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Debug\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.AssemblyInfo.cs
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.csproj.CopyComplete
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.dll
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\refint\SistemaHospitalar.Infra.Data.dll
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.pdb
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\SistemaHospitalar.Infra.Data.genruntimeconfig.cache
+C:\Users\W10\Desktop\sistemaHospitalar\SistemaHospitalar-main\SistemaHospitalar-main\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Debug\net6.0\ref\SistemaHospitalar.Infra.Data.dll

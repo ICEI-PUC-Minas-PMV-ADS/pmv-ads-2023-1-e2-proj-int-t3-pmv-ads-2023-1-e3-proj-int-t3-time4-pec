@@ -1,0 +1,46 @@
+﻿@model SistemaHospitalar.Domain.DTO.RecepcionistaDTO
+
+@{
+    ViewData["Title"] = "Criar";
+}
+
+<div class="text-center title-page">
+    <h1 class="display-1 fw-bold text-success mt-5 mb-5"><strong>Adicionar Recepcionista</strong></h1>
+</div>                      
+
+
+
+<form asp-controller="Recepcionistas" asp-action="Create" method="post">
+ <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-3">
+        <div class="form-group text-dark">
+         <label asp-for="bloco" for="bloco" class="color-label">Bloco</label>
+        <input asp-for="bloco" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o Bloco">
+        <span asp-validation-for="bloco" class="text-danger"></span>  
+    </div>
+            <div class="form-group mt-3 d-flex">
+                <input type="submit" value="Cadastrar" class="btn  btn-primary btn-block w-100 btn-sm float-end" />
+                <a id="btn-pessoa" class="btn btn-warning btn-sm btn-block w-100 ms-2 float-start" onclick="createPessoa()" data-bs-toggle="modal" data-bs-target="#formModal">Cadastrar Dados Pessoais</a>
+            </div>
+             <a class="btn btn-info btn-block w-100 mt-3" onclick="createEndereco()" data-bs-toggle="modal" data-bs-target="#formModal">Cadastrar Endereço</a>
+    
+    </div>
+ </div> 
+                                   
+</form>
+
+
+<div>
+    <a class="btn btn-dark" asp-action="Index">Voltar para Lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}
+
+
+

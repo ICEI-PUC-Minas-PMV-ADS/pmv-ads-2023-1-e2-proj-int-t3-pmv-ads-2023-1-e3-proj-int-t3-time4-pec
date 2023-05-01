@@ -30,6 +30,11 @@ Se houver usuário de teste, o login e a senha também deverão ser informados a
 
 O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
+## 🛠️ Construído com
+C# | ASP.NET Core | Entity Framework Core | JQuery |Bootstrap 
+:---:|:--------------:|:-----------------------:|:--------:|:---------:
+6.0| 7.0.102      | 7.0.2                 | 3.5.1  | 5.2
+
 # Documentação
 
 <ol>

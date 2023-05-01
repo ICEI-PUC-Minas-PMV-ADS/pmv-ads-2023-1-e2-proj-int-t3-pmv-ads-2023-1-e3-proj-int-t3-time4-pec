@@ -1,0 +1,76 @@
+﻿@using SistemaHospitalar.Domain.Entities
+@model SistemaHospitalar.Domain.DTO.PessoaDTO
+
+
+<label asp-for="nome" for="nome" class="color-label mt-3">Nome</label>
+<input asp-for="nome" type="text" class="form-control" id="nomePessoa" aria-describedby="emailHelp" placeholder="Informe o nome">
+<span asp-validation-for="nome" class="text-danger"></span>  
+
+<label asp-for="sobrenome" for="sobrenome" class="color-label mt-3">Sobrenome</label>
+<input asp-for="sobrenome" type="text" class="form-control" id="sobrenomePessoa"  aria-describedby="emailHelp" placeholder="Informe o sobrenome">
+<span asp-validation-for="sobrenome" class="text-danger"></span>  
+
+<label asp-for="email" for="email" class="color-label mt-3">E-mail</label>
+<input asp-for="email" type="text" class="form-control" id="emailPessoa" aria-describedby="emailHelp" placeholder="exemplo@exemplo.com">
+<span asp-validation-for="email" class="text-danger"></span>  
+
+<label asp-for="senha" for="senha" class="color-label mt-3">Senha:</label>
+<input asp-for="senha" type="password" class="form-control" id="senhaPessoa"  aria-describedby="emailHelp" placeholder="Informe a senha">
+<span asp-validation-for="senha" class="text-danger"></span> 
+
+<label asp-for="telefone" for="telefone" class="color-label mt-3">Telefone</label>
+<input asp-for="telefone" type="text" class="form-control" id="telefonePessoa"  aria-describedby="emailHelp" placeholder="(DDD) 0000-0000">
+<span asp-validation-for="telefone" class="text-danger"></span>  
+
+<label asp-for="cpf" for="cpf" class="color-label mt-3">CPF</label>
+<input asp-for="cpf" type="text" class="form-control" id="cpfPessoa"  aria-describedby="emailHelp" placeholder="000.000.000-00">
+<span asp-validation-for="cpf" class="text-danger"></span> 
+
+<label asp-for="rg" for="rg" class="color-label mt-3">RG</label>
+<input asp-for="rg" type="text" class="form-control" id="rgPessoa"  aria-describedby="emailHelp" placeholder="0.000.000">
+<span asp-validation-for="rg" class="text-danger"></span>  
+
+<label asp-for="dataNascimento" for="dataNascimento" class="color-label mt-3">Data de Nascimento</label>
+<input asp-for="dataNascimento" class="form-control" id="nascPessoa" aria-describedby="emailHelp" placeholder="Informe a data de nascimento">
+<span asp-validation-for="dataNascimento" class="text-danger"></span> 
+        
+<label asp-for="naturalidade" for="naturalidade" class="color-label mt-3">Naturalidade</label>
+<input asp-for="naturalidade" class="form-control" id="natPessoa" aria-describedby="emailHelp" placeholder="Exemplo: Cidade/UF">
+<span asp-validation-for="naturalidade" class="text-danger"></span>
+
+<div class="form-group mt-2 ">
+    <label asp-for="sexo" class="control-label login-title"></label>
+    <select asp-for="sexo" class="form-control" id="sexoPessoa">
+        <option value="0">Selecione</option>
+        <option value="@SexoEnum.Feminino">Feminino</option>
+        <option value="@SexoEnum.Masculino">Masculino</option>
+        <option value="@SexoEnum.NãoBinario">Não-Binário</option>
+        <option value="@SexoEnum.Outros">Outros</option>
+    </select>
+    <span asp-validation-for="sexo" class="text-danger"></span>
+</div>
+
+<div class="form-group mt-2 ">
+    <label asp-for="perfil" class="control-label login-title"></label>
+    <select asp-for="perfil" class="form-control" id="perfilPessoa">
+        <option value="0">Selecione</option>
+        <option value="@PerfilEnum.Admin">Administrador</option>
+        <option value="@PerfilEnum.Medico">Medico</option>
+        <option value="@PerfilEnum.Paciente">Paciente</option>
+        <option value="@PerfilEnum.Recepcionista">Recepcionista</option>
+    </select>
+    <span asp-validation-for="perfil" class="text-danger"></span>
+</div>
+
+
+<div class="form-group mt-3">
+    <input type="submit" value="Cadastrar" onclick="createControllerPessoa('../Pessoas/Create')" class="btn btn-primary btn-block w-100" />
+</div>
+ 
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }    
+
+}

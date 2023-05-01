@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SistemaHospitalar.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SistemaHospitalar.Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.13.2/datatables.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://kit.fontawesome.com/939df34509.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav @*class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3"*@>
+           <div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-success">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
+                        <div class="dropdown pb-4">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="~/img/user.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                                <span class="d-none d-sm-inline mx-1">User</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                            </ul>
+                        </div>
+                <a asp-action="Index" asp-controller="Home" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-dark  fw-bold text-decoration-none">
+                    
+                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start text-white" id="menu">
+                    <li class="nav-item">
+                        <a asp-action="Index" asp-controller="Home" class="nav-link align-middle px-0">
+                                    <i class="bx bxs-home-alt-2 text-white"></i>
+                                    <span class="ms-1 d-none d-sm-inline text-white">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                    <i class='bx bx-list-ul text-white'></i> <span class="ms-1 d-none d-sm-inline text-white">Listagem</span>
+                                </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a asp-action="Index" asp-controller="Pacientes" class="nav-link px-0 menu-listagem"> <span class="d-none d-sm-inline text-white">Pacientes</span></a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Medicos" class="nav-link px-0 menu-listagem"> <span class="d-none d-sm-inline text-white">Médicos</span></a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Recepcionistas" class="nav-link px-0 menu-listagem"> <span class="d-none d-sm-inline text-white">Recepcionistas</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-action="Index" asp-controller="Especialidades" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Especialidades Médicas</span></a>
+                    </li>
+                    <li>
+                        <a asp-action="Index" asp-controller="Convenios" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline text-white">Convênios</span></a>
+                    </li>
+                </ul>
+                <hr>
+                
+            </div>
+        </div>
+
+         <div class="container col py-3">
+        <main role="main" class="pb-3">
+                            @RenderBody()
+        </main>
+    </div>
+
+    </div>
+</div>
+        </nav>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - SistemaHospitalar.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+
+    <!-- Form Modal -->
+@*<div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastro</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div  id="modal-body" class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>*@
+
+
+
+
+
+    <!-- Total Address using Modal Component -->
+    @*<div class="modal fade" id="addressModal" tabindex="-1" aria-labelledby="msgModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="msgModalLabel">Sistema Hospitalar - Message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-body-address" class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+    <div class="modal fade" id="addressModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="msgModalLabel">Sistema Hospitalar - Endereços</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-body-address" class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="formModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 id="modal-title" class="modal-title fs-5" id="exampleModalToggleLabel2">Cadastro de Informações Pessoais</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-body" class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Messages using Modal Component -->
+    <div class="modal fade" id="msgModal" tabindex="1" aria-labelledby="msgModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="msgModalLabel">Sistema Hospitalar - Message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-corpo" class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button id="btnModalCallback" type="button" class="btn btn-danger">Sim</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Messages using Toasts Component -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-success">
+                <img src="~/img/hospital.png" class="rounded me-2" width="24" height="24" alt="...">
+                <strong class="me-auto text-dark">Sistema Hospitalar - <span id="toast-origin"></span></strong>
+                <small class="text-dark" id="toast-time">11:00</smal>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+  
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.13.2/datatables.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
