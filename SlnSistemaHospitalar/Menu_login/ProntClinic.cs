@@ -18,7 +18,7 @@ namespace Menu_login
             InitializeComponent();
         }
 
-        private object button1_Click(object sender, EventArgs e)
+        private object Button1_Click(object sender, EventArgs e)
         {
             string User = "admin";
             string Password = "admin";
