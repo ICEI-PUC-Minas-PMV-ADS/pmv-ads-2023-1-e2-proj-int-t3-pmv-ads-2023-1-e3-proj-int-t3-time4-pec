@@ -1,0 +1,12 @@
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\bin\Debug\Menu_login.exe.config
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\bin\Debug\Menu_login.exe
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\bin\Debug\Menu_login.pdb
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.Form1.resources
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.Formlogin.resources
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.Properties.Resources.resources
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.csproj.GenerateResource.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.exe
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\Menu_login\obj\Debug\Menu_login.pdb

@@ -52,20 +52,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formlogin.cs">
+    <Compile Include="Program.cs" />
+    <Compile Include="ProntClinic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formlogin.Designer.cs">
-      <DependentUpon>Formlogin.cs</DependentUpon>
+    <Compile Include="ProntClinic.Designer.cs">
+      <DependentUpon>ProntClinic.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SistemaHospitalar\web.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formlogin.resx">
-      <DependentUpon>Formlogin.cs</DependentUpon>
+    <EmbeddedResource Include="ProntClinic.resx">
+      <DependentUpon>ProntClinic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

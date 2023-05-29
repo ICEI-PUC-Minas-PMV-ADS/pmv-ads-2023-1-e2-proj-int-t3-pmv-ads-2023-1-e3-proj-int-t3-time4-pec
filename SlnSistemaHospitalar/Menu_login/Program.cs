@@ -16,7 +16,7 @@ namespace Menu_login
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formlogin());
+            Application.Run(new ProntClinic());
         }
     }
 }
