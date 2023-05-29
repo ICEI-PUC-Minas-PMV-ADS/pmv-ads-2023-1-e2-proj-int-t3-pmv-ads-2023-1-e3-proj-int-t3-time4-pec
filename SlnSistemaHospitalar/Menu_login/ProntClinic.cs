@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaHospitalar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,26 @@ namespace Menu_login
         public ProntClinic()
         {
             InitializeComponent();
+        }
+
+        private object button1_Click(object sender, EventArgs e)
+        {
+            string User = "admin";
+            string Password = "admin";
+
+            if (txtusuario.Text == User & txtsenha.Text == Password)
+            {
+
+                MessageBox.Show("Acesso liberado");
+                sln Menumain = new sln();
+                Menumain.Show();
+                this.Hide();
+
+            }else
+            {
+                MessageBox.Show("usuario ou senha incorreto");
+            }
+
         }
     }
 }
