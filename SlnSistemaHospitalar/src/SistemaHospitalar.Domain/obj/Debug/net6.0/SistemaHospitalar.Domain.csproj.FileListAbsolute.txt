@@ -26,3 +26,17 @@ C:\Users\User\Source\Repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-
 C:\Users\User\Source\Repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.pdb
 C:\Users\User\Source\Repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.genruntimeconfig.cache
 C:\Users\User\Source\Repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\ref\SistemaHospitalar.Domain.dll
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Debug\net6.0\SistemaHospitalar.Domain.deps.json
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Debug\net6.0\SistemaHospitalar.Domain.runtimeconfig.json
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Debug\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Debug\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.AssemblyInfo.cs
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\refint\SistemaHospitalar.Domain.dll
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\SistemaHospitalar.Domain.genruntimeconfig.cache
+C:\Users\User\Downloads\trabalhoPuc\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Debug\net6.0\ref\SistemaHospitalar.Domain.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {}
+    "C:\\Users\\User\\Downloads\\trabalhoPuc\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
+    "C:\\Users\\User\\Downloads\\trabalhoPuc\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\trabalhoPuc\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
         "projectName": "SistemaHospitalar.Domain",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Downloads\\trabalhoPuc\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\trabalhoPuc\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
