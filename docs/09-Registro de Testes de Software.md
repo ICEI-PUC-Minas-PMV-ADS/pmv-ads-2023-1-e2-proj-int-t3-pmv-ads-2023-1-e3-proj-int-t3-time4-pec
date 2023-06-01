@@ -16,8 +16,11 @@ Os testes funcionais realizados no aplicativo são descritos a seguir:
 |	**Caso de Teste**	| **CT-03 – Extrair custos de consultas**	|
 |	Resultado de Teste 	|  Teste não realizado pela feature ainda estar em desenvolvimento.  |
 |	**Caso de Teste**	| **CT-04 – Criar prontuário**	|
-|	Resultado de Teste 	|  Teste realizado com sucesso no dia 06/05/2023. A feature está completa e foi testada inserindo, atualizando e deletando diferentes tipos de prontuários com diferentes informções e tipos. |
+|	Resultado de Teste 	|  Teste realizado com sucesso no dia 31/05/2023. A feature está imcompleta, faltam muitos dados importantes para um prontuário médico. |
+<!-- Teste realizado com sucesso no dia 06/05/2023. A feature está completa e foi testada inserindo, atualizando e deletando diferentes tipos de prontuários com diferentes informções e tipos. -->
 |	**Caso de Teste**	| **CT-05 – Consultar prontuário**	|
 |	Resultado de Teste 	|  Teste realizado com sucesso no dia 06/05/2023.  A consulta está funcional. |
+<!--  Teste realizado com sucesso no dia 06/05/2023.  A consulta está funcional. -->
 | 	**Caso de Teste**	| **CT-06 – Realizar alta**	|
-|	Resultado de Teste 	|  Teste realizado com sucesso no dia 06/05/2023.  A alta está funcional via pela própria tela de prontuário mudando seu tipo para "alta". |
+|	Resultado de Teste 	| Teste realizado no dia 01/06/2023, precisa de melhoria. Atualmente só podemos mudar o status do paciente, a alta em si ainda não está feita. |
+<!-- Teste realizado com sucesso no dia 06/05/2023.  A alta está funcional via pela própria tela de prontuário mudando seu tipo para "alta".-->
