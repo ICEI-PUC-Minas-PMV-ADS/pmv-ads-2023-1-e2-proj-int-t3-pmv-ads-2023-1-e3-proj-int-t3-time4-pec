@@ -18,6 +18,7 @@ namespace SistemaHospitalar.Domain.Repositories
         public PessoaRepository(SQLServerContext context)
             : base(context)
         {
+            _context = context;
         }
 
         public async Task<Pessoa> FindByLogin(string email)

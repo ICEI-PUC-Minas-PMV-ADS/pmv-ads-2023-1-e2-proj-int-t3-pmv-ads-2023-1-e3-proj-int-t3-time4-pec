@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaHospitalar.Infra.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaHospitalar.Application.Service", "src\SistemaHospitalar.Application.Service\SistemaHospitalar.Application.Service.csproj", "{7AACA984-6432-4C33-8C4B-158B8ECDCA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu_login", "Menu_login\Menu_login.csproj", "{B88D7CEF-EAC2-4EFD-ADF2-E416989E306F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{7AACA984-6432-4C33-8C4B-158B8ECDCA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AACA984-6432-4C33-8C4B-158B8ECDCA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AACA984-6432-4C33-8C4B-158B8ECDCA85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B88D7CEF-EAC2-4EFD-ADF2-E416989E306F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B88D7CEF-EAC2-4EFD-ADF2-E416989E306F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B88D7CEF-EAC2-4EFD-ADF2-E416989E306F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B88D7CEF-EAC2-4EFD-ADF2-E416989E306F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
