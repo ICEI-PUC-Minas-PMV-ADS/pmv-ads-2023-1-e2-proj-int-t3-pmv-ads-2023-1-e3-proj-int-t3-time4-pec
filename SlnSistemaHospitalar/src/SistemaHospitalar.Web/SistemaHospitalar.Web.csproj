@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Pessoas\Create2.cshtml" />
+    <Content Remove="Views\Pessoas\Criar.cshtml" />
+    <Content Remove="Views\Prontuarios\Class.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BeginCollectionItem" Version="1.2.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />

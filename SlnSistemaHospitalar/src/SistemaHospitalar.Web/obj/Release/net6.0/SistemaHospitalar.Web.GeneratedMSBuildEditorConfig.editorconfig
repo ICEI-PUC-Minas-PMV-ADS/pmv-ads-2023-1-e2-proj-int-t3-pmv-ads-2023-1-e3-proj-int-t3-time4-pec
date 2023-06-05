@@ -9,161 +9,165 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaHospitalar.Web
 build_property.RootNamespace = SistemaHospitalar.Web
-build_property.ProjectDir = C:\Users\gusta\Desktop\repos\entrega_maio\SlnSistemaHospitalar\src\SistemaHospitalar.Web\
+build_property.ProjectDir = C:\Users\Davi\source\repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\SlnSistemaHospitalar\src\SistemaHospitalar.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gusta\Desktop\repos\entrega_maio\SlnSistemaHospitalar\src\SistemaHospitalar.Web
+build_property.MSBuildProjectDirectory = C:\Users\Davi\source\repos\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\SlnSistemaHospitalar\src\SistemaHospitalar.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Convenios/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Convenios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVuaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Convenios/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Convenios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVuaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Convenios/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Convenios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVuaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Enderecos/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Enderecos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Enderecos/Details.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Enderecos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Enderecos/ListaEndereco.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Enderecos/ListaEndereco.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29zXExpc3RhRW5kZXJlY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Especialidades/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Especialidades/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Especialidades/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Especialidades/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Especialidades/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Especialidades/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Home/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Home/Privacy.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Login/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Login/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Login/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Details.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Medicos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Details.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pacientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pessoas/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pessoas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pessoas/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Pessoas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbnR1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Details.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbnR1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbnR1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbnR1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Create.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Prontuarios/ListarProntuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbnR1YXJpb3NcTGlzdGFyUHJvbnR1YXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBjaW9uaXN0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Details.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBjaW9uaXN0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Edit.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBjaW9uaXN0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Index.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Recepcionistas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZXBjaW9uaXN0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/Components/Menu/Default.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/Components/Menu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/Error.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/_LayoutDeslogada.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/_LayoutDeslogada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZXNsb2dhZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/_ViewImports.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/_ViewStart.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gusta/Desktop/repos/entrega_maio/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/Davi/source/repos/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/SlnSistemaHospitalar/src/SistemaHospitalar.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bsw5qov5wo

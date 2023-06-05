@@ -15,7 +15,7 @@ namespace SistemaHospitalar.Domain.Entities
         public string Descricao { get; set; }
         public string HistoricoFamiliar { get; set; }
         public string ExameFisico { get; set; }
-        public string Condutas { get; set; }
+        /*public string Conduta { get; set; }*/
         public string HipoteseDiagnostica { get; set; }
         public string Prescricao { get; set; }
         public DateTime CreatedOn { get; set; }

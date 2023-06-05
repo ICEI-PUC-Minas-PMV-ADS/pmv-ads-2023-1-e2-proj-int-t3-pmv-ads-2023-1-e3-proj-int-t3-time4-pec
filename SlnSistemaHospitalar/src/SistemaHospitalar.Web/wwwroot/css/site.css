@@ -1,16 +1,16 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
     top: 3em;
 }
 
-.menu-listagem{
+.menu-listagem {
     text-indent: 2em;
 }
 
@@ -79,17 +79,17 @@ body {
     width: 10vw;
 }
 
-.index{
+.index {
     margin-top: 3em;
     width: 76vw;
 }
 
 .form-login {
-    background-color: #767676;
+    background-color: cornflowerblue;
 }
 
 .login-title {
-    color: #351868;
+    color: white;
 }
 
 #destaque {
@@ -117,3 +117,39 @@ body {
         transform: scale(1.07);
     }
 
+.bg-success {
+    background-color: cornflowerblue !important;
+    color: cornflowerblue;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.fs-5 {
+    color: whitesmoke;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.btn-primary {
+    background-color: cornflowerblue;
+}
+
+strong {
+    color: cornflowerblue;
+}
+
+.text-success {
+    color: cornflowerblue !important;
+}
+
+.bg-dark {
+    background-color: cornflowerblue !important;
+}
+
+h5 {
+    color: cornflowerblue !important;
+}

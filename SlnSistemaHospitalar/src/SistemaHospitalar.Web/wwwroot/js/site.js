@@ -219,3 +219,55 @@ const deleteRegistro = (idParam, origin, urlParam) => {
         closeMsgModalMessage();
     });
 }
+
+/*const createProntuario = () => {
+    $.ajax({
+        url: '../Prontuario/Create',
+        dataType: 'html',
+        success: (resp) => {
+            $('#modal-body').html(resp);
+        }
+    });
+}
+
+const createProntuarioPost = () => {
+    var prontuario = {
+        nomePrincipal: $('#nomePrincipal').val(),
+        queixaPrincipal: $('#queixaPrincipal').val(),
+        historicoFamiliar: $('#historicoFamiliar').val(),
+        exameFisico: $('#exameFisico').val(),
+        conduta: $('#conduta').val(),
+        hipoteseDiagnostica: $('#hipoteseDiagnostica').val()
+        prescricao: $('#prescricao').val()
+    };
+
+    $.ajax({
+        url: `../Prontuarios/Create`,
+        method: 'POST',
+        data: {
+            endereco: endereco
+        },
+        success: (resp) => {
+            if (resp.code == '200') {
+                $('#formModal').modal('hide');
+                liveToastMessage(`O Prontuário foi adicionado.`, 'Prontuário');
+                setTimeout(() => { window.location.reload(); }, 4000);
+            }
+        }
+    });
+
+
+};*/
+
+const ProntuarioIndex = (idPessoa) => {
+
+    $.ajax({
+        url: `../Prontuarios/ListarProntuarios/${idPessoa}`,
+        dataType: 'html',
+        success: (response) => {
+            $('#modal-body-address').html(response);
+        }
+    });
+
+    //$('#').modal('show');
+};

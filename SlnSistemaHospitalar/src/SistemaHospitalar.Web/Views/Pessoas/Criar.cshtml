@@ -1,0 +1,34 @@
+﻿@using SistemaHospitalar.Domain.Entities
+@model SistemaHospitalar.Domain.DTO.PessoaDTO
+
+<label asp-for="queixa" for="queixaPrincipal" class="color-label">Queixa Principal:</label>
+<input asp-for="queixa" type="text" class="form-control" id="queixa" aria-describedby="emailHelp" placeholder="Informe a queixa principal">
+<span asp-validation-for="queixa" class="text-danger"></span>
+
+<label asp-for="descricao" for="descricao" class="color-label">Descricao: </label>
+<input asp-for="descricao" type="text" class="form-control" id="descricao" aria-describedby="emailHelp" placeholder="Informe a descricao">
+<span asp-validation-for="descricao" class="text-danger"></span>
+
+<label asp-for="historico" for="historico" class="color-label">Histórico Familiar</label>
+<input asp-for="historico" type="text" class="form-control" id="historicoFamiliar" aria-describedby="emailHelp" placeholder="Informe o histórico familiar">
+<span asp-validation-for="historico" class="text-danger"></span>
+
+<label asp-for="exame" for="exame" class="color-label">Exame Físico:</label>
+<input asp-for="exame" type="text" class="form-control" id="exameFisico" aria-describedby="emailHelp" placeholder="Informe o exame físico">
+<span asp-validation-for="exame" class="text-danger"></span>
+
+<label asp-for="prescricao" for="prescricao" class="color-label">Prescricao:</label>
+<input asp-for="prescricao" type="text" class="form-control" id="prescricao" aria-describedby="emailHelp" placeholder="Informe a prescrição">
+<span asp-validation-for="prescricao" class="text-danger"></span>
+
+<div class="form-group mt-3">
+    <input type="submit" value="Cadastrar" onclick="createControllerPessoa('../Pessoas/Criar')" class="btn btn-primary btn-block w-100" />
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

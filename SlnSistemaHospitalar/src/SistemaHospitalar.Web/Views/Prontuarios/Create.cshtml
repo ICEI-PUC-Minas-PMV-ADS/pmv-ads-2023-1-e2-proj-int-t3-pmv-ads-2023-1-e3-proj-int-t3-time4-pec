@@ -1,7 +1,8 @@
-﻿@model SistemaHospitalar.Domain.DTO.ProntuarioDTO
+﻿@using SistemaHospitalar.Domain.Entities
+@model SistemaHospitalar.Domain.DTO.ProntuarioDTO
 
 
-@*<form asp-controller="Enderecos" asp-action="Create" method="post">
+@*<form asp-controller="Prontuarios" asp-action="Create" method="post">
  <div class="container">
     <div class="row justify-content-center">
     <div class="col-3">
@@ -15,7 +16,7 @@
 <input asp-for="queixaPrincipal" type="text" class="form-control" id="queixaPrincipal"  aria-describedby="emailHelp" placeholder="Informe a queixa principal">
 <span asp-validation-for="queixaPrincipal" class="text-danger"></span>  
 
-<label asp-for="descricao" for="descricao" class="color-label">Descricao: </label>
+<label asp-for="descricao" for="descricao" class="color-label">Descrição: </label>
 <input asp-for="descricao" type="text" class="form-control" id="descricao"  aria-describedby="emailHelp" placeholder="Informe a descricao">
 <span asp-validation-for="descricao" class="text-danger"></span>  
 
@@ -27,9 +28,9 @@
 <input asp-for="exameFisico" type="text" class="form-control" id="exameFisico"  aria-describedby="emailHelp" placeholder="Informe o exame físico">
 <span asp-validation-for="exameFisico" class="text-danger"></span>  
 
-<label asp-for="condutas" for="condutas" class="color-label">Condutas</label>
-<input asp-for="condutas" type="text" class="form-control" id="condutas"  aria-describedby="emailHelp" placeholder="Informe a cidade">
-<span asp-validation-for="condutas" class="text-danger"></span> 
+<label asp-for="conduta" for="conduta" class="color-label">Condutas</label>
+<input asp-for="conduta" type="text" class="form-control" id="conduta"  aria-describedby="emailHelp" placeholder="Informe a cidade">
+<span asp-validation-for="conduta" class="text-danger"></span> 
 
 <label asp-for="hipoteseDiagnostica" for="hipoteseDiagnostica" class="color-label">Hipótese Diagnóstica:</label>
 <input asp-for="hipoteseDiagnostica" type="text" class="form-control" id="hipoteseDiagnostica"  aria-describedby="emailHelp" placeholder="Informe a hipótese diagnóstica">
@@ -50,7 +51,7 @@
 
 </form>*@
 
-                    <a class="btn btn-primary" href="#" onclick="createProntuario()">Salvar</a>
+                    <a class="btn btn-primary" href="#" onclick="createProntuarioPost()">Salvar</a>
 
  
 
