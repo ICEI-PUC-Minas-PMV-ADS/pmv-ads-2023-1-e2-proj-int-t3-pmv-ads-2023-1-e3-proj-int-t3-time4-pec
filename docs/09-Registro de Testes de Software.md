@@ -16,7 +16,7 @@ Os testes funcionais realizados no aplicativo são descritos a seguir:
 |	**Caso de Teste**	| **CT-03 – Extrair custos de consultas**	|
 |	Resultado de Teste 	|  Teste não realizado pela feature ainda estar em desenvolvimento.  |
 |	**Caso de Teste**	| **CT-04 – Criar prontuário**	|
-|	Resultado de Teste 	|  Teste realizado no dia 04/06/2023. A feature está com bug e ainda não se encontra funcional. |
+|	Resultado de Teste 	|  Teste realizado no dia 04/06/2023. A feature está com bug e ainda não se encontra funcional. Em desenvolvimento. |
 |	**Caso de Teste**	| **CT-05 – Consultar prontuário**	|
 |	Resultado de Teste 	|  Teste não realizado pela feature ainda estar em desenvolvimento. |
 | 	**Caso de Teste**	| **CT-06 – Realizar alta**	|
