@@ -44,7 +44,7 @@ namespace SistemaHospitalar.Web.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    if (pessoa != null)
+                    if (pessoa.id != -1)
                     {
                         if (pessoa.ValidaSenha(loginModel.senha))
                         {
@@ -53,6 +53,11 @@ namespace SistemaHospitalar.Web.Controllers
                         }
 
                     }
+                    else
+                    {
+                        TempData["MensagemErro"] = $"Ops, Login ou Senha inválidos. Tente novamente!";
+                    }
+ 
 
                 }
 
@@ -69,7 +74,7 @@ namespace SistemaHospitalar.Web.Controllers
         public IActionResult Sair()
         {
             _sessao.RemoverSessao();
-            return RedirectToAction("Index", "Login");
+            return RedirectToAction("Create", "Login");
         }
     }
 }

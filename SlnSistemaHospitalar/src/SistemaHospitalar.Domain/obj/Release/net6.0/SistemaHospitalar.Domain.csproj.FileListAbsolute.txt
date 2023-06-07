@@ -1,0 +1,14 @@
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Release\net6.0\SistemaHospitalar.Domain.deps.json
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Release\net6.0\SistemaHospitalar.Domain.runtimeconfig.json
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Release\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\bin\Release\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.csproj.AssemblyReference.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.AssemblyInfoInputs.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.AssemblyInfo.cs
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\refint\SistemaHospitalar.Domain.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\SistemaHospitalar.Domain.genruntimeconfig.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Domain\obj\Release\net6.0\ref\SistemaHospitalar.Domain.dll

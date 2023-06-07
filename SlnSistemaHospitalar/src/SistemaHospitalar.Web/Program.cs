@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 
 // Context SQL Server
 builder.Services.AddDbContext<SQLServerContext>
-    (options => options.UseSqlServer("Data Source=DESKTOP-9EUTL7V\\SQLEXPRESS;Initial Catalog=ProntClinic;Integrated Security=True;TrustServerCertificate=True"));
+    (options => options.UseSqlServer("Server=tcp:prontclinicserverdb.database.windows.net,1433;Initial Catalog=ProntClinicDb;Persist Security Info=False;User ID=1243087@sga.pucminas.br;Password=170599Gug@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Authentication='Active Directory Password';"));
 
 //Service
 builder.Services.AddScoped<IConvenioService, ConvenioService>();

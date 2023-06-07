@@ -1,0 +1,155 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    overflow-x: hidden;
+}
+
+.img-menu {
+    width: 20%;
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+.card-noticias :hover {
+    background-color: #a7a7a7;
+}
+
+.categoria-title {
+    color: #693db9;
+}
+
+.main-title {
+    color: #693db9;
+}
+
+#title-index {
+    position: absolute;
+    right: 2em;
+    top: 3em;
+}
+
+.menu-listagem {
+    text-indent: 2em;
+}
+
+#title-home {
+    position: absolute;
+    right: 3em;
+    top: 2em;
+}
+
+#title-div {
+    float: left;
+}
+
+#texto-index {
+    position: absolute;
+    right: 17em;
+    top: 10em;
+}
+
+.titulos {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #00000082;
+}
+
+
+#btn-index {
+    position: absolute;
+    right: 5em;
+    top: 12em;
+    width: 10vw;
+}
+
+.index {
+    margin-top: 3em;
+    width: 76vw;
+}
+
+.form-login {
+    background-color: cornflowerblue;
+}
+
+.login-title {
+    color: white;
+}
+
+#destaque {
+    flex-wrap: wrap;
+    clear: both;
+}
+
+
+.img-destaque {
+    width: 100%;
+}
+
+.item-destaque {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .item-destaque img {
+        transition: .5s all ease-out;
+    }
+
+    .item-destaque:hover img {
+        transform: scale(1.07);
+    }
+
+.bg-success {
+    background-color: cornflowerblue !important;
+    color: cornflowerblue;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.fs-5 {
+    color: whitesmoke;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.btn-primary {
+    background-color: cornflowerblue;
+}
+
+strong {
+    color: cornflowerblue;
+}
+
+.text-success {
+    color: cornflowerblue !important;
+}
+
+.bg-dark {
+    background-color: cornflowerblue !important;
+}
+
+h5 {
+    color: cornflowerblue !important;
+}

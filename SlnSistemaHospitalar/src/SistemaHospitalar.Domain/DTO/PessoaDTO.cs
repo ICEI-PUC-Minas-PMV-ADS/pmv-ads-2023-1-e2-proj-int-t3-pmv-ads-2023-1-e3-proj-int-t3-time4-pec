@@ -50,22 +50,44 @@ namespace SistemaHospitalar.Domain.DTO
 
         public PessoaDTO mapToDTO(Pessoa pessoa)
         {
-            return new PessoaDTO()
+            if (pessoa != null)
             {
-                id = pessoa.Id,
-                nome = pessoa.Nome,
-                sobrenome = pessoa.Sobrenome,
-                cpf = pessoa.Cpf,
-                rg = pessoa.Rg,
-                telefone = pessoa.Telefone,
-                email = pessoa.Email,
-                senha = pessoa.Senha,
-                dataNascimento = pessoa.DataNascimento,
-                naturalidade = pessoa.Naturalidade,
-                sexo = pessoa.Sexo,
-                perfil = pessoa.Perfil,
-                createdOn = pessoa.CreatedOn,
-            };
+                return new PessoaDTO()
+                {
+                    id = pessoa.Id,
+                    nome = pessoa.Nome,
+                    sobrenome = pessoa.Sobrenome,
+                    cpf = pessoa.Cpf,
+                    rg = pessoa.Rg,
+                    telefone = pessoa.Telefone,
+                    email = pessoa.Email,
+                    senha = pessoa.Senha,
+                    dataNascimento = pessoa.DataNascimento,
+                    naturalidade = pessoa.Naturalidade,
+                    sexo = pessoa.Sexo,
+                    perfil = pessoa.Perfil,
+                    createdOn = pessoa.CreatedOn,
+                };
+            }
+            else
+            {
+                return new PessoaDTO()
+                {
+                    id = -1,
+                    nome = "",
+                    sobrenome = "",
+                    cpf = "",
+                    rg = "",
+                    telefone = "",
+                    email = "",
+                    senha = "",
+                    dataNascimento = DateTime.Now,
+                    naturalidade = "",
+                    sexo = SexoEnum.Masculino,
+                    perfil = PerfilEnum.Admin,
+                    createdOn = DateTime.Now,
+                };
+            }
         }
 
         public Pessoa mapToEntity()

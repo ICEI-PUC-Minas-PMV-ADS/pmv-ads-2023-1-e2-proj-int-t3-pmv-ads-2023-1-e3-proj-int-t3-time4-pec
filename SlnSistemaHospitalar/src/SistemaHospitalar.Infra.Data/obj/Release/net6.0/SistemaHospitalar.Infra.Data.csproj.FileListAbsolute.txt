@@ -1,0 +1,17 @@
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Release\net6.0\SistemaHospitalar.Infra.Data.deps.json
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Release\net6.0\SistemaHospitalar.Infra.Data.runtimeconfig.json
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Release\net6.0\SistemaHospitalar.Infra.Data.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Release\net6.0\SistemaHospitalar.Infra.Data.pdb
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Release\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\bin\Release\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.AssemblyInfo.cs
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.csproj.CopyComplete
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\refint\SistemaHospitalar.Infra.Data.dll
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.pdb
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\SistemaHospitalar.Infra.Data.genruntimeconfig.cache
+C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Infra.Data\obj\Release\net6.0\ref\SistemaHospitalar.Infra.Data.dll
