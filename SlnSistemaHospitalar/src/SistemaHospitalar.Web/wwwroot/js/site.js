@@ -220,9 +220,9 @@ const deleteRegistro = (idParam, origin, urlParam) => {
     });
 }
 
-/*const createProntuario = () => {
+const createProntuario = () => {
     $.ajax({
-        url: '../Prontuario/Create',
+        url: '../Prontuarios/Create',
         dataType: 'html',
         success: (resp) => {
             $('#modal-body').html(resp);
@@ -237,7 +237,7 @@ const createProntuarioPost = () => {
         historicoFamiliar: $('#historicoFamiliar').val(),
         exameFisico: $('#exameFisico').val(),
         conduta: $('#conduta').val(),
-        hipoteseDiagnostica: $('#hipoteseDiagnostica').val()
+        hipoteseDiagnostica: $('#hipoteseDiagnostica').val(),
         prescricao: $('#prescricao').val()
     };
 
@@ -245,7 +245,7 @@ const createProntuarioPost = () => {
         url: `../Prontuarios/Create`,
         method: 'POST',
         data: {
-            endereco: endereco
+            prontuario: prontuario
         },
         success: (resp) => {
             if (resp.code == '200') {
@@ -257,7 +257,7 @@ const createProntuarioPost = () => {
     });
 
 
-};*/
+};
 
 const ProntuarioIndex = (idPessoa) => {
 
