@@ -130,6 +130,10 @@
         </div>
     </dl>
 </div>
+<div>
+    @await Component.InvokeAsync("ProntuariosViewComponent")
+</div>
+
 <div class="mt-5">
     <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Editar">
         <img width="30" height="30" src="~/img/editar.png">

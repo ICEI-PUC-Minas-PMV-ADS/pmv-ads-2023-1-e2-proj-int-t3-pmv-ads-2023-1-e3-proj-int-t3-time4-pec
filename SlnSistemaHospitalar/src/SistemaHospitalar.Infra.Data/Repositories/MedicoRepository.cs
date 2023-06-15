@@ -17,6 +17,7 @@ namespace SistemaHospitalar.Domain.Repositories
         public MedicoRepository(SQLServerContext context)
             :base(context)
         {
+            _context = context;
         }
 
         public async Task<Medico> FindByIdPessoa(int id)

@@ -7,9 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ViewComponents\ProntuariosViewComponent.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Pessoas\Create2.cshtml" />
     <Content Remove="Views\Pessoas\Criar.cshtml" />
     <Content Remove="Views\Prontuarios\Class.cshtml" />
+    <Content Remove="Views\Shared\_prontuariosDetails.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +26,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
   </ItemGroup>
 
   <ItemGroup>

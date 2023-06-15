@@ -22,6 +22,13 @@ namespace SistemaHospitalar.Web.Controllers
             _medicoService = medicoService;
         }
 
+        public async Task<PartialViewResult> ListarProntuarios(int id)
+        {
+            var prontuario = await _service.ListarProntuarios(id);
+            //var lista = await _service.GetAll();
+            return PartialView(prontuario);
+        }
+
 
         // GET: ProntuariosController
         public ActionResult Index()
@@ -87,7 +94,7 @@ namespace SistemaHospitalar.Web.Controllers
             }
 
             var prontuario = await _service.FindById(id);
-            //ViewData["pessoaId"] = new SelectList(_pessoaService.GetAll(), "id", "nome", "Selecione...");
+            ViewData["pessoaId"] = new SelectList(await _pessoaService.GetAll(), "id", "nome", "Selecione...");
             return View(prontuario);
         }
 

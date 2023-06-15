@@ -71,5 +71,24 @@ namespace SistemaHospitalar.Application.Service.SQLServerServices
                 return await _repository.Save(entity.mapToEntity());
             }
         }
+
+        public async Task<List<ProntuarioDTO>> ListarProntuarios(int id)
+        {
+            List<ProntuarioDTO> listaDTO = new List<ProntuarioDTO>();
+
+            var lista = await _repository.GetAll();
+            foreach (var item in lista)
+            {
+                if (item.PacienteId == id)
+                {
+                    var pac = new ProntuarioDTO();
+                    listaDTO.Add(pac.mapToDTO(item));
+                }
+
+            }
+
+            return listaDTO;
+
+        }
     }
 }

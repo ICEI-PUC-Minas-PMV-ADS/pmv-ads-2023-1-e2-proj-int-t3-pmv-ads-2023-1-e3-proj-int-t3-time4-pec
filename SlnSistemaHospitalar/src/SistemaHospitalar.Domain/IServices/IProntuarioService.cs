@@ -10,5 +10,6 @@ namespace SistemaHospitalar.Domain.IServices
 {
     public interface IProntuarioService : IBaseService<ProntuarioDTO>
     {
+        Task<List<ProntuarioDTO>> ListarProntuarios(int id);
     }
 }

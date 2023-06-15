@@ -17,3 +17,22 @@ C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\Sist
 C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.pdb
 C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.genruntimeconfig.cache
 C:\Users\gusta\Desktop\repos\entrega-junho-oficial\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\ref\SistemaHospitalar.Application.Service.dll
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Application.Service.deps.json
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Application.Service.runtimeconfig.json
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Application.Service.dll
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Application.Service.pdb
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Domain.dll
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Infra.Data.dll
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Domain.pdb
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\bin\Release\net6.0\SistemaHospitalar.Infra.Data.pdb
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.csproj.AssemblyReference.cache
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.AssemblyInfoInputs.cache
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.AssemblyInfo.cs
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.csproj.CopyComplete
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.dll
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\refint\SistemaHospitalar.Application.Service.dll
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.pdb
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\SistemaHospitalar.Application.Service.genruntimeconfig.cache
+C:\Users\W10\Desktop\repos\New folder (4)\SlnSistemaHospitalar\src\SistemaHospitalar.Application.Service\obj\Release\net6.0\ref\SistemaHospitalar.Application.Service.dll

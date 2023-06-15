@@ -230,9 +230,61 @@ const createProntuario = () => {
     });
 }
 
-const createProntuarioPost = () => {
+const editProntuario = (urlEdit) => {
+    //carrega o forms dentro do modal
+    let h1 = '<h1 class="modal-title fs-5">Editar Prontuário</h1>'
+    $('#modal-title').html(h1);
+    $.ajax({
+        url: urlEdit,
+        dataType: 'html',
+        success: (response) => {
+            $('#modal-body').html(response)
+        }
+    });
+};
+
+const editControllerProntuario = (idPessoa, urlEdit) => {
+    //faz o post pra controller
+    var pessoa = {
+        id: $('#idEdit').val(),
+        nome: $('#nomeEdit').val(),
+        sobrenome: $('#sobrenomeEdit').val(),
+        email: $('#emailEdit').val(),
+        senha: $('#senhaEdit').val(),
+        telefone: $('#telefoneEdit').val(),
+        cpf: $('#cpfEdit').val(),
+        rg: $('#rgEdit').val(),
+        dataNascimento: $('#nascEdit').val(),
+        naturalidade: $('#natEdit').val(),
+        sexo: $('#sexoEdit').val(),
+        perfil: $('#perfilEdit').val(),
+        createdOn: $('#createdEdit').val(),
+    }
+
+    console.log(pessoa);
+
+    $.ajax({
+        url: urlEdit,
+        method: 'POST',
+        data: {
+            id: idPessoa,
+            pessoa: pessoa
+        },
+        success: (resp) => {
+            if (resp.code == '200') {
+                $('#formModal').modal('hide');
+                liveToastMessage(`Os dados pessoais foram editados.`, 'Dados Pessoais');
+                setTimeout(() => { window.location.reload(); }, 4000);
+            }
+        }
+
+    });
+};
+
+const createProntuarioPost = (idParam) => {
     var prontuario = {
-        nomePrincipal: $('#nomePrincipal').val(),
+        pacienteId: idParam,
+        nomePrincipal: $('#nomePaciente').val(),
         queixaPrincipal: $('#queixaPrincipal').val(),
         historicoFamiliar: $('#historicoFamiliar').val(),
         exameFisico: $('#exameFisico').val(),

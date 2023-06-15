@@ -1,75 +1,41 @@
 ﻿@using SistemaHospitalar.Domain.Entities
-@model SistemaHospitalar.Domain.DTO.PessoaDTO
+@model SistemaHospitalar.Domain.DTO.ProntuarioDTO
 
 
-<form asp-controller="Pessoas" asp-action="Edit" method="post">
- <div class="container">
-    <div class="row justify-content-center">
-    <div class="col-3">
-        <div class="form-group text-dark">
-         <label asp-for="nome" for="nome" class="color-label">Nome</label>
-        <input asp-for="nome" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o nome">
-        <span asp-validation-for="nome" class="text-danger"></span>  
 
-        <label asp-for="sobrenome" for="sobrenome" class="color-label">Sobrenome</label>
-        <input asp-for="sobrenome" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o sobrenome">
-        <span asp-validation-for="sobrenome" class="text-danger"></span>  
+<label autofocus asp-for="pacienteId" for="pacienteId" class="color-label">Nome do Paciente</label>
+<input asp-for="pacienteId" class="form-control" aria-describedby="emailHelp" placeholder="IdPaciente">
+<span asp-validation-for="pacienteId" class="text-danger"></span>
 
-        <label asp-for="email" for="email" class="color-label">E-mail</label>
-        <input asp-for="email" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o email">
-        <span asp-validation-for="email" class="text-danger"></span>  
+<label asp-for="queixaPrincipal" for="queixaPrincipal" class="color-label">Queixa Principal:</label>
+<input asp-for="queixaPrincipal" type="text" class="form-control" id="queixaPrincipal" aria-describedby="emailHelp" placeholder="Informe a queixa principal">
+<span asp-validation-for="queixaPrincipal" class="text-danger"></span>
 
-        <label asp-for="telefone" for="telefone" class="color-label">Telefone</label>
-        <input asp-for="telefone" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o telefone">
-        <span asp-validation-for="telefone" class="text-danger"></span>  
+<label asp-for="descricao" for="descricao" class="color-label">Descrição: </label>
+<input asp-for="descricao" type="text" class="form-control" id="descricao" aria-describedby="emailHelp" placeholder="Informe a descricao">
+<span asp-validation-for="descricao" class="text-danger"></span>
 
-        <label asp-for="cpf" for="cpf" class="color-label">CPF</label>
-        <input asp-for="cpf" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Informe o CPF">
-        <span asp-validation-for="cpf" class="text-danger"></span>  
+<label asp-for="historicoFamiliar" for="historicoFamiliar" class="color-label">Histórico Familiar</label>
+<input asp-for="historicoFamiliar" type="text" class="form-control" id="historicoFamiliar" aria-describedby="emailHelp" placeholder="Informe o histórico familiar">
+<span asp-validation-for="historicoFamiliar" class="text-danger"></span>
 
-        <label asp-for="dataNascimento" for="dataNascimento" class="color-label">Data de Nascimento</label>
-        <input asp-for="dataNascimento" class="form-control"  aria-describedby="emailHelp" placeholder="Informe a data de nascimento">
-        <span asp-validation-for="dataNascimento" class="text-danger"></span>  
+<label asp-for="exameFisico" for="exameFisico" class="color-label">Exame Físico:</label>
+<input asp-for="exameFisico" type="text" class="form-control" id="exameFisico" aria-describedby="emailHelp" placeholder="Informe o exame físico">
+<span asp-validation-for="exameFisico" class="text-danger"></span>
 
-         <label asp-for="naturalidade" for="naturalidade" class="color-label">Naturalidade</label>
-        <input asp-for="naturalidade" class="form-control"  aria-describedby="emailHelp" placeholder="Informe a naturalidade">
-        <span asp-validation-for="naturalidade" class="text-danger"></span>
+<label asp-for="conduta" for="conduta" class="color-label">Condutas</label>
+<input asp-for="conduta" type="text" class="form-control" id="conduta" aria-describedby="emailHelp" placeholder="Informe a cidade">
+<span asp-validation-for="conduta" class="text-danger"></span>
 
-        <div class="form-group mt-2 ">
-            <label asp-for="sexo" class="control-label login-title"></label>
-            <select asp-for="sexo" class="form-control">
-                <option value="0">Selecione</option>
-                <option value="@PerfilEnum.Admin">Administrador</option>
-                <option value="@PerfilEnum.Medico">Medico</option>
-                <option value="@PerfilEnum.Paciente">Paciente</option>
-                <option value="@PerfilEnum.Recepcionista">Recepcionista</option>
-            </select>
-            <span asp-validation-for="sexo" class="text-danger"></span>
-        </div>
+<label asp-for="hipoteseDiagnostica" for="hipoteseDiagnostica" class="color-label">Hipótese Diagnóstica:</label>
+<input asp-for="hipoteseDiagnostica" type="text" class="form-control" id="hipoteseDiagnostica" aria-describedby="emailHelp" placeholder="Informe a hipótese diagnóstica">
+<span asp-validation-for="hipoteseDiagnostica" class="text-danger"></span>
 
-        <div class="form-group mt-2 ">
-            <label asp-for="perfil" class="control-label login-title"></label>
-            <select asp-for="perfil" class="form-control">
-                <option value="0">Selecione</option>
-                <option value="@PerfilEnum.Admin">Administrador</option>
-                <option value="@PerfilEnum.Medico">Medico</option>
-                <option value="@PerfilEnum.Paciente">Paciente</option>
-                <option value="@PerfilEnum.Recepcionista">Recepcionista</option>
-            </select>
-            <span asp-validation-for="perfil" class="text-danger"></span>
-        </div>
+<label asp-for="prescricao" for="prescricao" class="color-label">Prescricao:</label>
+<input asp-for="prescricao" type="text" class="form-control" id="prescricao" aria-describedby="emailHelp" placeholder="Informe a prescrição">
+<span asp-validation-for="prescricao" class="text-danger"></span>
 
-
-    </div>
-            <div class="form-group mt-3">
-                <input type="submit" value="Cadastrar" class="btn btn-primary btn-block w-100" />
-            </div>
-         </div>
-
-    </div>
- </div> 
-
-</form>
+<a class="btn btn-warning btn-block w-100 mt-3" href="#" onclick="editControllerPessoa(@Model.id, `../../Prontuario/Edit/@Model.id`)">Salvar</a>
 
 @section Scripts {
     @{

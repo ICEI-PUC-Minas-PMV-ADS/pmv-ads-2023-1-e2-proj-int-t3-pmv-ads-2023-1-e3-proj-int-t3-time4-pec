@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\Desktop\\repos\\entrega-junho-oficial\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {}
+    "C:\\Users\\W10\\Desktop\\repos\\New folder (4)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\Desktop\\repos\\entrega-junho-oficial\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
+    "C:\\Users\\W10\\Desktop\\repos\\New folder (4)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\repos\\entrega-junho-oficial\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Desktop\\repos\\New folder (4)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
         "projectName": "SistemaHospitalar.Domain",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\repos\\entrega-junho-oficial\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\repos\\entrega-junho-oficial\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\obj\\",
+        "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (4)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
+        "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (4)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
