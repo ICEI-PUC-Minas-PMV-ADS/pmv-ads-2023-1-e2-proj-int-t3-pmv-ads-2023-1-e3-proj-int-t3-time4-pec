@@ -17,6 +17,7 @@ namespace SistemaHospitalar.Domain.Repositories
         public ProntuarioRepository(SQLServerContext context)
             : base(context)
         {
+            _context = context;
         }
     }
 }

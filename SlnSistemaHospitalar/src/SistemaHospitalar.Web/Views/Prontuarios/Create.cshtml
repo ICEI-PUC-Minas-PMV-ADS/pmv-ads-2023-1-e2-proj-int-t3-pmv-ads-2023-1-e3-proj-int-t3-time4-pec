@@ -7,38 +7,42 @@
     <div class="row justify-content-center">
     <div class="col-3">
         <div class="form-group text-dark">*@
+<form asp-controller="Prontuarios" asp-action="Create" method="post">
+    <label autofocus asp-for="pacienteId" for="pacienteId" class="color-label">Nome do Paciente</label>
+    <input asp-for="pacienteId" class="form-control" aria-describedby="emailHelp" placeholder="IdPaciente">
+    <span asp-validation-for="pacienteId" class="text-danger"></span>
 
-<label autofocus asp-for="pacienteId" for="pacienteId" class="color-label">Nome do Paciente</label>
-<select asp-for="pacienteId" class="form-control" asp-items="ViewBag.pacienteId"></select>
-<span asp-validation-for="pacienteId" class="text-danger"></span>
+    <label asp-for="queixaPrincipal" for="queixaPrincipal" class="color-label">Queixa Principal:</label>
+    <input asp-for="queixaPrincipal" type="text" class="form-control" id="queixaPrincipal"  aria-describedby="emailHelp" placeholder="Informe a queixa principal">
+    <span asp-validation-for="queixaPrincipal" class="text-danger"></span>  
 
-<label asp-for="queixaPrincipal" for="queixaPrincipal" class="color-label">Queixa Principal:</label>
-<input asp-for="queixaPrincipal" type="text" class="form-control" id="queixaPrincipal"  aria-describedby="emailHelp" placeholder="Informe a queixa principal">
-<span asp-validation-for="queixaPrincipal" class="text-danger"></span>  
+    <label asp-for="descricao" for="descricao" class="color-label">Descrição: </label>
+    <input asp-for="descricao" type="text" class="form-control" id="descricao"  aria-describedby="emailHelp" placeholder="Informe a descricao">
+    <span asp-validation-for="descricao" class="text-danger"></span>  
 
-<label asp-for="descricao" for="descricao" class="color-label">Descrição: </label>
-<input asp-for="descricao" type="text" class="form-control" id="descricao"  aria-describedby="emailHelp" placeholder="Informe a descricao">
-<span asp-validation-for="descricao" class="text-danger"></span>  
+    <label asp-for="historicoFamiliar" for="historicoFamiliar" class="color-label">Histórico Familiar</label>
+    <input asp-for="historicoFamiliar" type="text" class="form-control" id="historicoFamiliar"  aria-describedby="emailHelp" placeholder="Informe o histórico familiar">
+    <span asp-validation-for="historicoFamiliar" class="text-danger"></span>  
 
-<label asp-for="historicoFamiliar" for="historicoFamiliar" class="color-label">Histórico Familiar</label>
-<input asp-for="historicoFamiliar" type="text" class="form-control" id="historicoFamiliar"  aria-describedby="emailHelp" placeholder="Informe o histórico familiar">
-<span asp-validation-for="historicoFamiliar" class="text-danger"></span>  
+    <label asp-for="exameFisico" for="exameFisico" class="color-label">Exame Físico:</label>
+    <input asp-for="exameFisico" type="text" class="form-control" id="exameFisico"  aria-describedby="emailHelp" placeholder="Informe o exame físico">
+    <span asp-validation-for="exameFisico" class="text-danger"></span>  
 
-<label asp-for="exameFisico" for="exameFisico" class="color-label">Exame Físico:</label>
-<input asp-for="exameFisico" type="text" class="form-control" id="exameFisico"  aria-describedby="emailHelp" placeholder="Informe o exame físico">
-<span asp-validation-for="exameFisico" class="text-danger"></span>  
+    <label asp-for="conduta" for="conduta" class="color-label">Condutas</label>
+    <input asp-for="conduta" type="text" class="form-control" id="conduta"  aria-describedby="emailHelp" placeholder="Informe a cidade">
+    <span asp-validation-for="conduta" class="text-danger"></span> 
 
-<label asp-for="conduta" for="conduta" class="color-label">Condutas</label>
-<input asp-for="conduta" type="text" class="form-control" id="conduta"  aria-describedby="emailHelp" placeholder="Informe a cidade">
-<span asp-validation-for="conduta" class="text-danger"></span> 
+    <label asp-for="hipoteseDiagnostica" for="hipoteseDiagnostica" class="color-label">Hipótese Diagnóstica:</label>
+    <input asp-for="hipoteseDiagnostica" type="text" class="form-control" id="hipoteseDiagnostica"  aria-describedby="emailHelp" placeholder="Informe a hipótese diagnóstica">
+    <span asp-validation-for="hipoteseDiagnostica" class="text-danger"></span> 
 
-<label asp-for="hipoteseDiagnostica" for="hipoteseDiagnostica" class="color-label">Hipótese Diagnóstica:</label>
-<input asp-for="hipoteseDiagnostica" type="text" class="form-control" id="hipoteseDiagnostica"  aria-describedby="emailHelp" placeholder="Informe a hipótese diagnóstica">
-<span asp-validation-for="hipoteseDiagnostica" class="text-danger"></span> 
-
-<label asp-for="prescricao" for="prescricao" class="color-label">Prescricao:</label>
-<input asp-for="prescricao" type="text" class="form-control" id="prescricao"  aria-describedby="emailHelp" placeholder="Informe a prescrição">
-<span asp-validation-for="prescricao" class="text-danger"></span> 
+    <label asp-for="prescricao" for="prescricao" class="color-label">Prescricao:</label>
+    <input asp-for="prescricao" type="text" class="form-control" id="prescricao"  aria-describedby="emailHelp" placeholder="Informe a prescrição">
+    <span asp-validation-for="prescricao" class="text-danger"></span> 
+    <div class="form-group mt-3">
+        <input type="submit" value="Salvar" class="btn btn-primary btn-block w-100" />
+    </div>
+</form>
 @*
 <div class="form-group mt-3">
                 <input type="submit" value="Cadastrar" class="btn btn-primary btn-block w-100" />
@@ -50,9 +54,6 @@
  </div> 
 
 </form>*@
-
-                    <a class="btn btn-primary" href="#" onclick="createProntuarioPost()">Salvar</a>
-
  
 
 @section Scripts {

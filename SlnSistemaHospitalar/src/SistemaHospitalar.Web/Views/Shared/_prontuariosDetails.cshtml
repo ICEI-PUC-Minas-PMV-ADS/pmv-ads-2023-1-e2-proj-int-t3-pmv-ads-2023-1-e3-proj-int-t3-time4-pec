@@ -1,0 +1,90 @@
+﻿@model IEnumerable<SistemaHospitalar.Domain.DTO.ProntuarioDTO>
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <div> @TempData["MensagemSucesso"]</div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger d-flex align-items-center" role="alert">
+        @TempData["MensagemErro"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<p>
+    <button type="button" class="btn btn-primary" onclick="createProntuarios()" data-bs-target="#formModal" data-bs-toggle="modal">Criar outro Prontuário</button>
+</p>
+
+<div class="index table-responsive">
+    <table class="table table-striped table-hover table-sm table-dark" id="table-index">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.queixaPrincipal)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.descricao)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.historicoFamiliar)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.exameFisico)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.conduta)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.hipoteseDiagnostica)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.prescricao)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.queixaPrincipal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.descricao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.historicoFamiliar)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.exameFisico)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.conduta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.hipoteseDiagnostica)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.prescricao)
+                    </td>
+                    <td>
+                        <a class="btn btn-warning btn-sm" asp-action="Details" asp-route-id="@item.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Ver Detalhes">Details</a> |
+                        <a class="btn btn-danger btn-sm" onclick="deleteRegistro(@item.id, 'Endereço', '../Enderecos/Delete')" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Excluir">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -57,7 +57,7 @@ namespace SistemaHospitalar.Domain.DTO
                 descricao = prontuario.Descricao,
                 historicoFamiliar = prontuario.HistoricoFamiliar,
                 exameFisico = prontuario.ExameFisico,
-                /*conduta = prontuario.Conduta,*/
+                conduta = prontuario.Conduta,
                 hipoteseDiagnostica = prontuario.HipoteseDiagnostica,
                 prescricao = prontuario.Prescricao,
                 createdOn = prontuario.CreatedOn,
@@ -76,7 +76,7 @@ namespace SistemaHospitalar.Domain.DTO
                 Descricao = descricao,
                 HistoricoFamiliar = historicoFamiliar,
                 ExameFisico = exameFisico,
-                /*Conduta = conduta,*/
+                Conduta = conduta,
                 HipoteseDiagnostica = hipoteseDiagnostica,
                 Prescricao = prescricao,
                 CreatedOn = createdOn,
