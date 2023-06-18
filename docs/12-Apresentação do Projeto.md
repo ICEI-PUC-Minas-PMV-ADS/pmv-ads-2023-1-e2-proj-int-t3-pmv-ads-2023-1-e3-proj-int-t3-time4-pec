@@ -17,4 +17,35 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 ## Conjunto de Slides (Estrutura)
 [Apresentação_prontClinic.pptx](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/files/11782781/Apresentacao_prontClinic.pptx)
 
+![tela login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/24080697-d94d-402c-97d7-da5c7346473a)
+(Tela de Login)
+
+
+![tela Principal 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/f83fa41c-dc25-461a-8e48-9289c7321294)
+(Tela de menu principal)
+
+
+
+![tela listagem de pacientes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/b1650329-440c-44d8-b5ef-0c6e006268c3)
+(Tela listagem de Pacientes)
+
+
+
+
+
+![tela especialidadesmedicas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/4e2e8749-9c7e-48dd-a335-e8bc428fac62)
+(Tela especialidades médicas)
+
+
+
+
+
+![tela de convenio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/ef37d07c-8719-47d0-b6ea-454fc883f497)
+(Tela de convênio)
+
+
+
+
+
+
 
