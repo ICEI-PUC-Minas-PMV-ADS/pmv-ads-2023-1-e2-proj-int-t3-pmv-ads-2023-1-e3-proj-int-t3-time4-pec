@@ -3,10 +3,6 @@
 
 
 
-<label autofocus asp-for="pacienteId" for="pacienteId" class="color-label">Nome do Paciente</label>
-<input asp-for="pacienteId" class="form-control" aria-describedby="emailHelp" placeholder="IdPaciente">
-<span asp-validation-for="pacienteId" class="text-danger"></span>
-
 <label asp-for="queixaPrincipal" for="queixaPrincipal" class="color-label">Queixa Principal:</label>
 <input asp-for="queixaPrincipal" type="text" class="form-control" id="queixaPrincipal" aria-describedby="emailHelp" placeholder="Informe a queixa principal">
 <span asp-validation-for="queixaPrincipal" class="text-danger"></span>
@@ -35,7 +31,7 @@
 <input asp-for="prescricao" type="text" class="form-control" id="prescricao" aria-describedby="emailHelp" placeholder="Informe a prescrição">
 <span asp-validation-for="prescricao" class="text-danger"></span>
 
-<a class="btn btn-warning btn-block w-100 mt-3" href="#" onclick="editControllerPessoa(@Model.id, `../../Prontuario/Edit/@Model.id`)">Salvar</a>
+<a class="btn btn-warning btn-block w-100 mt-3" href="#" onclick="editControllerProntuario(@Model.id, `../../Prontuario/Edit/@Model.id`)">Salvar</a>
 
 @section Scripts {
     @{
