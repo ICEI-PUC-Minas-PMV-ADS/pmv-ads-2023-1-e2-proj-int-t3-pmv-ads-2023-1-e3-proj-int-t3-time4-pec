@@ -83,7 +83,7 @@
                     <a class="btn btn-outline-primary btn-sm"  asp-action="Edit" asp-route-id="@item.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Editar">Editar</a> 
                     <a class="btn btn-outline-warning btn-sm" asp-action="Details" asp-route-id="@item.id" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Ver Detalhes">Detalhes</a>
                     <a class="btn btn-outline-danger btn-sm" href="#" onclick="deleteRegistro(@item.id, 'Paciente', '/Pacientes/Delete')" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Excluir">Excluir </a>
-                        <a class="btn btn-outline-warning btn-sm" onclick="ProntuarioIndex(@item.id)" data-bs-toggle="modal" data-bs-target="#addressModal" data-bs-title="Prontuario">Prontuário</a>
+                    <a class="btn btn-outline-warning btn-sm" onclick="ProntuarioIndex(@item.id)" data-bs-toggle="modal" data-bs-target="#addressModal" data-bs-title="Prontuario">Prontuário</a>
                  </td>
             </tr>
         }

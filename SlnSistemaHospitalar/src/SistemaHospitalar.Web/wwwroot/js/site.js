@@ -243,37 +243,31 @@ const editProntuario = (urlEdit) => {
     });
 };
 
-const editControllerProntuario = (idPessoa, urlEdit) => {
+const editControllerProntuario = (idProntuario, urlEdit) => {
     //faz o post pra controller
-    var pessoa = {
-        id: $('#idEdit').val(),
-        nome: $('#nomeEdit').val(),
-        sobrenome: $('#sobrenomeEdit').val(),
-        email: $('#emailEdit').val(),
-        senha: $('#senhaEdit').val(),
-        telefone: $('#telefoneEdit').val(),
-        cpf: $('#cpfEdit').val(),
-        rg: $('#rgEdit').val(),
-        dataNascimento: $('#nascEdit').val(),
-        naturalidade: $('#natEdit').val(),
-        sexo: $('#sexoEdit').val(),
-        perfil: $('#perfilEdit').val(),
-        createdOn: $('#createdEdit').val(),
+    var prontuario = {
+        id: idProntuario,
+        queixaPrincipal: $('#queixaPrincipal').val(),
+        descricao: $('#descricao').val(),
+        historicoFamiliar: $('#historicoFamiliar').val(),
+        exameFisico: $('#exameFisico').val(),
+        conduta: $('#conduta').val(),
+        hipoteseDiagnostica: $('#hipoteseDiagnostica').val(),
+        prescricao: $('#prescricao').val(),
     }
 
-    console.log(pessoa);
+    console.log(prontuario);
 
     $.ajax({
         url: urlEdit,
         method: 'POST',
         data: {
             id: idPessoa,
-            pessoa: pessoa
+            prontuario: prontuario
         },
         success: (resp) => {
             if (resp.code == '200') {
-                $('#formModal').modal('hide');
-                liveToastMessage(`Os dados pessoais foram editados.`, 'Dados Pessoais');
+                liveToastMessage(`O prontuario foi editado.`, 'Prontuario');
                 setTimeout(() => { window.location.reload(); }, 4000);
             }
         }
