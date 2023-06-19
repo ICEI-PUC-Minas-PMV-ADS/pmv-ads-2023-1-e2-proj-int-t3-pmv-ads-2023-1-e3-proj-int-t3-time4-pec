@@ -59,7 +59,7 @@ namespace SistemaHospitalar.Web.Controllers
         // POST: ProntuariosController/Create
         [HttpPost]
 
-        public async Task<JsonResult> Create(ProntuarioDTO prontuario)
+        public async Task<IActionResult> Create(ProntuarioDTO prontuario)
         {
             var retDel = new ReturnJson
             {
@@ -86,7 +86,8 @@ namespace SistemaHospitalar.Web.Controllers
                 TempData["MensagemErro"] = "Não foi possível criar o prontuário.";
             }
             //ViewData["pessoaId"] = new SelectList(await _pessoaService.GetAll(), "id", "nome", "Selecione...");
-            return Json(retDel);
+            //return Json(retDel);
+            return RedirectToAction("Index", "Pacientes");
         }
 
         public async Task<IActionResult> Edit(int id)
@@ -97,7 +98,7 @@ namespace SistemaHospitalar.Web.Controllers
             }
 
             var prontuario = await _service.FindById(id);
-            ViewData["pessoaId"] = new SelectList(await _pessoaService.GetAll(), "id", "nome", "Selecione...");
+            //ViewData["pessoaId"] = new SelectList(await _pessoaService.GetAll(), "id", "nome", "Selecione...");
             return View(prontuario);
         }
 

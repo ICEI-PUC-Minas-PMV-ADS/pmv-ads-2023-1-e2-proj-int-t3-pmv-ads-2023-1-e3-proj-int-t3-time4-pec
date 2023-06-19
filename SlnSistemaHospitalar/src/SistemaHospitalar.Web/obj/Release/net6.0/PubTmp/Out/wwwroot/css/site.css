@@ -88,10 +88,6 @@ body {
     background-color: cornflowerblue;
 }
 
-.login-title {
-    color: white;
-}
-
 #destaque {
     flex-wrap: wrap;
     clear: both;
@@ -126,10 +122,6 @@ h1 {
     color: cornflowerblue;
 }
 
-.fs-5 {
-    color: whitesmoke;
-}
-
 body {
     background-color: gainsboro;
 }
@@ -152,4 +144,22 @@ strong {
 
 h5 {
     color: cornflowerblue !important;
+}
+
+.modal-content {
+    width: 200% !important;
+}
+
+.fs-6{
+    color: white;
+}
+
+h4{
+    color: cornflowerblue;
+}
+h6{
+    color: white;
+}
+h2{
+    color: gainsboro;
 }

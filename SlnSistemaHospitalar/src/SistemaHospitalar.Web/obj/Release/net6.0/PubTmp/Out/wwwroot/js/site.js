@@ -230,9 +230,55 @@ const createProntuario = () => {
     });
 }
 
-const createProntuarioPost = () => {
+const editProntuario = (urlEdit) => {
+    //carrega o forms dentro do modal
+    let h1 = '<h1 class="modal-title fs-5">Editar Prontuário</h1>'
+    $('#modal-title').html(h1);
+    $.ajax({
+        url: urlEdit,
+        dataType: 'html',
+        success: (response) => {
+            $('#modal-body').html(response)
+        }
+    });
+};
+
+const editControllerProntuario = (idProntuario, urlEdit) => {
+    //faz o post pra controller
     var prontuario = {
-        nomePrincipal: $('#nomePrincipal').val(),
+        id: idProntuario,
+        queixaPrincipal: $('#queixaPrincipal').val(),
+        descricao: $('#descricao').val(),
+        historicoFamiliar: $('#historicoFamiliar').val(),
+        exameFisico: $('#exameFisico').val(),
+        conduta: $('#conduta').val(),
+        hipoteseDiagnostica: $('#hipoteseDiagnostica').val(),
+        prescricao: $('#prescricao').val(),
+    }
+
+    console.log(prontuario);
+
+    $.ajax({
+        url: urlEdit,
+        method: 'POST',
+        data: {
+            id: idProntuario,
+            prontuario: prontuario
+        },
+        success: (resp) => {
+            if (resp.code == '200') {
+                liveToastMessage(`O prontuario foi editado.`, 'Prontuario');
+                setTimeout(() => { window.location.reload(); }, 4000);
+            }
+        }
+
+    });
+};
+
+const createProntuarioPost = (idParam) => {
+    var prontuario = {
+        pacienteId: idParam,
+        nomePrincipal: $('#nomePaciente').val(),
         queixaPrincipal: $('#queixaPrincipal').val(),
         historicoFamiliar: $('#historicoFamiliar').val(),
         exameFisico: $('#exameFisico').val(),
