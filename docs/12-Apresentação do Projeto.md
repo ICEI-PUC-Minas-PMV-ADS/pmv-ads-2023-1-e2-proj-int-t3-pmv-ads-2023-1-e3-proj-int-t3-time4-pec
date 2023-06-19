@@ -10,7 +10,7 @@ Prontclinic  Sistemas Hospitalar
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+A pagina é feita em um modelo padrão, comumente utilizado em varias paginas webs atuais. feita com uma coluna lateral azul, onde fica o menu principal. O restante da navegação é mostrado no centro da pagina. 
 
 
 
