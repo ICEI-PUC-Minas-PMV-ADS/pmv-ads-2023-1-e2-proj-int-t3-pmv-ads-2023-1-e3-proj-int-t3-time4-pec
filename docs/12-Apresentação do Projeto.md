@@ -12,6 +12,22 @@ Prontclinic  Sistemas Hospitalar
 
 A pagina é feita em um modelo padrão, comumente utilizado em varias paginas webs atuais. feita com uma coluna lateral azul, onde fica o menu principal. O restante da navegação é mostrado no centro da pagina. 
 
+![Simbolo Hospital 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/5d9605d9-528e-47e6-9f2d-c3bb4fbbd489)
+(simbolo Hospitalar)
+
+![coluna superior](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/dd5f6d77-1e26-4709-9c40-77a6bc2e256d)
+(Coluna superior utilizada na tela de login)
+
+
+![colunalateral](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/c1c37214-cf7a-4e5e-a99c-eb01fee0ebc7)
+(Coluna Lateral)
+
+
+
+
+
+
+
 
 
 ## Conjunto de Slides (Estrutura)
