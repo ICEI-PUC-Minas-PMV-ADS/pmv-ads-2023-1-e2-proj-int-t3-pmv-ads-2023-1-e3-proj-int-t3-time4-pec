@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj": {}
+    "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj": {
+    "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj",
         "projectName": "SistemaHospitalar.Application.Service",
-        "projectPath": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj",
-        "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davi\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\obj\\",
+        "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\SistemaHospitalar.Application.Service.csproj",
+        "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Application.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
-                "projectPath": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj"
+              "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
+                "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj"
               },
-              "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj"
+              "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj"
               }
             }
           }
@@ -86,25 +82,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
+    "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
         "projectName": "SistemaHospitalar.Domain",
-        "projectPath": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
-        "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davi\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\obj\\",
+        "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj",
+        "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,25 +157,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj": {
+    "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj",
         "projectName": "SistemaHospitalar.Infra.Data",
-        "projectPath": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davi\\Source\\Repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\SistemaHospitalar.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,8 +185,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
-                "projectPath": "C:\\Users\\Davi\\source\\repos\\pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj"
+              "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj": {
+                "projectPath": "C:\\Users\\W10\\Desktop\\repos\\New folder (6)\\SlnSistemaHospitalar\\src\\SistemaHospitalar.Domain\\SistemaHospitalar.Domain.csproj"
               }
             }
           }
@@ -248,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

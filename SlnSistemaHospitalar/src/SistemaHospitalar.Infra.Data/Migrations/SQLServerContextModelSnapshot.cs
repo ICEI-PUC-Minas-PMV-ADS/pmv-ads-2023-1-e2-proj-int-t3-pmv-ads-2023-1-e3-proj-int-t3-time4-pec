@@ -36,7 +36,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Convenios");
+                    b.ToTable("Convenios", (string)null);
 
                     b.HasData(
                         new
@@ -115,7 +115,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasIndex("PessoaId");
 
-                    b.ToTable("Enderecos");
+                    b.ToTable("Enderecos", (string)null);
 
                     b.HasData(
                         new
@@ -178,7 +178,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EspecialidadesMedicas");
+                    b.ToTable("EspecialidadesMedicas", (string)null);
 
                     b.HasData(
                         new
@@ -282,7 +282,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasIndex("PessoaId");
 
-                    b.ToTable("Medicos");
+                    b.ToTable("Medicos", (string)null);
 
                     b.HasData(
                         new
@@ -317,7 +317,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasIndex("PessoaId");
 
-                    b.ToTable("Pacientes");
+                    b.ToTable("Pacientes", (string)null);
 
                     b.HasData(
                         new
@@ -383,7 +383,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pessoas");
+                    b.ToTable("Pessoas", (string)null);
 
                     b.HasData(
                         new
@@ -503,7 +503,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasIndex("PacienteId");
 
-                    b.ToTable("Prontuarios");
+                    b.ToTable("Prontuarios", (string)null);
 
                     b.HasData(
                         new
@@ -555,7 +555,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
 
                     b.HasIndex("PessoaId");
 
-                    b.ToTable("Recepcionistas");
+                    b.ToTable("Recepcionistas", (string)null);
 
                     b.HasData(
                         new

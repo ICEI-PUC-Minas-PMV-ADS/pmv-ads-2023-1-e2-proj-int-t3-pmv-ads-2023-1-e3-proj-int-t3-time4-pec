@@ -88,8 +88,10 @@ namespace SistemaHospitalar.Web.Controllers
                     status = "Success",
                     code = "200"
                 };
+            } else
+            {
+                TempData["MensagemErro"] = "Erro ao editar cadastro. Certifique-se de que todos os campos estão preenchidos.";
             }
-
             return Json(retDel);
 
         }
