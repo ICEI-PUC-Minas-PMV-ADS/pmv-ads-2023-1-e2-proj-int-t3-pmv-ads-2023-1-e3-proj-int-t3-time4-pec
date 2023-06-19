@@ -262,7 +262,7 @@ const editControllerProntuario = (idProntuario, urlEdit) => {
         url: urlEdit,
         method: 'POST',
         data: {
-            id: idPessoa,
+            id: idProntuario,
             prontuario: prontuario
         },
         success: (resp) => {

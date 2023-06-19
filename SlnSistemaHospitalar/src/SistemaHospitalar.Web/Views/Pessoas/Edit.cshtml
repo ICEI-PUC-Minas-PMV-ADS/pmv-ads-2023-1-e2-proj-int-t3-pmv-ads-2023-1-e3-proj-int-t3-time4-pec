@@ -1,7 +1,12 @@
 ﻿@using SistemaHospitalar.Domain.Entities
 @model SistemaHospitalar.Domain.DTO.PessoaDTO
 
-
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger d-flex align-items-center" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
 @*<form asp-controller="Pessoas" asp-action="Edit" method="post">
  <div class="container">
     <div class="row justify-content-center">
