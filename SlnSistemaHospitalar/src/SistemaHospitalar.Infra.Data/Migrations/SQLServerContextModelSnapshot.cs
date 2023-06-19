@@ -390,8 +390,8 @@ namespace SistemaHospitalar.Infra.Data.Migrations
                         {
                             Id = 1,
                             Cpf = "156.789.754-85",
-                            CreatedOn = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8795),
-                            DataNascimento = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8787),
+                            CreatedOn = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1272),
+                            DataNascimento = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1264),
                             Email = "ana@gmail.com",
                             Naturalidade = "Blumenau/SC",
                             Nome = "Ana",
@@ -406,8 +406,8 @@ namespace SistemaHospitalar.Infra.Data.Migrations
                         {
                             Id = 2,
                             Cpf = "456.799.466-65",
-                            CreatedOn = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8796),
-                            DataNascimento = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8796),
+                            CreatedOn = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1274),
+                            DataNascimento = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1273),
                             Email = "carlos@gmail.com",
                             Naturalidade = "Criciúma/SC",
                             Nome = "Carlos",
@@ -422,8 +422,8 @@ namespace SistemaHospitalar.Infra.Data.Migrations
                         {
                             Id = 3,
                             Cpf = "787.464.796-56",
-                            CreatedOn = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8798),
-                            DataNascimento = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8797),
+                            CreatedOn = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1275),
+                            DataNascimento = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1275),
                             Email = "maria@gmail.com",
                             Naturalidade = "Joinville/SC",
                             Nome = "Maria Clara",
@@ -438,8 +438,8 @@ namespace SistemaHospitalar.Infra.Data.Migrations
                         {
                             Id = 4,
                             Cpf = "899.799.465-78",
-                            CreatedOn = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8799),
-                            DataNascimento = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8799),
+                            CreatedOn = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1277),
+                            DataNascimento = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1276),
                             Email = "joao@gmail.com",
                             Naturalidade = "Blumenau/SC",
                             Nome = "Jupiter",
@@ -510,7 +510,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
                         {
                             Id = 1,
                             Conduta = "Solicito EDA, PHmetria e exames laboratoriais ",
-                            CreatedOn = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8874),
+                            CreatedOn = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1400),
                             Descricao = "Aproximadamente há 20 dias, evoluiu uma dor forte na barriga que piora com café e bebidas ácidas",
                             ExameFisico = "BNF sem SA, MVUA sem alterações, dor a palpação de região epigástrica",
                             HipoteseDiagnostica = "K29 - Gastrite e duodenite",
@@ -524,7 +524,7 @@ namespace SistemaHospitalar.Infra.Data.Migrations
                         {
                             Id = 2,
                             Conduta = "Solicito EDA, PHmetria e exames laboratoriais ",
-                            CreatedOn = new DateTime(2023, 6, 11, 22, 27, 12, 755, DateTimeKind.Local).AddTicks(8875),
+                            CreatedOn = new DateTime(2023, 6, 18, 21, 29, 51, 11, DateTimeKind.Local).AddTicks(1402),
                             Descricao = "Aproximadamente há 20 dias, evoluiu uma dor forte na cabeça",
                             ExameFisico = "BNF sem SA, MVUA sem alterações, dor a palpação de região epigástrica",
                             HipoteseDiagnostica = "Dor de cabeça normal",
