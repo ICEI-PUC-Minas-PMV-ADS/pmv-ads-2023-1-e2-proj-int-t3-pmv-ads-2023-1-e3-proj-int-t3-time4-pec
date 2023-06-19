@@ -13,7 +13,7 @@ builder.Services.AddControllersWithViews();
 
 // Context SQL Server
 builder.Services.AddDbContext<SQLServerContext>
-    (options => options.UseSqlServer("Data Source=DESKTOP-Q487H07\\SQLEXPRESS;Initial Catalog=ProntClinicDbk;Integrated Security=True;TrustServerCertificate=True"));
+    (options => options.UseSqlServer("Data Source=DESKTOP-9EUTL7V\\SQLEXPRESS;Initial Catalog=ProntClinic;Integrated Security=True;TrustServerCertificate=True"));
 
 //Service
 builder.Services.AddScoped<IConvenioService, ConvenioService>();
