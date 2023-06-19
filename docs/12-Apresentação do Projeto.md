@@ -34,6 +34,15 @@ A pagina é feita em um modelo padrão, comumente utilizado em varias paginas we
 
 
 
+![telapacienteendereço](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/8678328a-ab4f-4d99-b9b6-6b53dabd9663)
+(Tela listagem de Pacientes:Endereço)
+
+
+
+![telapacienteprontuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t3-pmv-ads-2023-1-e3-proj-int-t3-time4-pec/assets/114547158/f7e069f8-f4d5-4cef-8b36-1cce210834b5)
+(Tela listagem de Pacientes:Prontuario)
+
+
 
 
 
