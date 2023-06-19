@@ -6,6 +6,13 @@
 
 `1º Semestre 2023`
 
+## Instruções de utilização
+
+------> Link da aplicação online: https://prontclinic.azurewebsites.net/<------
+------> Vídeo da aplicação online: https://www.loom.com/share/f8eea3b18b8d4f3698bb52db2f17c4db <------
+
+Login: carlos@gmail.com
+Senha: 123
 
 ## Integrantes
 
@@ -19,18 +26,12 @@
 
 * Jose Wilson da Costa
 
-## Instruções de utilização
-
-https://prontclinic.azurewebsites.net/
-
-Login: ana@gmail.com
-Senha: 123
-
 ## 🛠️ Construído com
 C# | ASP.NET Core | Entity Framework Core | JQuery |Bootstrap 
 :---:|:--------------:|:-----------------------:|:--------:|:---------:
 6.0| 7.0.102      | 7.0.2                 | 3.5.1  | 5.2
 
+A aplicação está online via deploy em um grupo de recursos na cloud Azure com a conta estudantil fornecida pela PUC Minas. No grupo de recursos está contido: Um serviço de hospedagem web, um servidor de banco de dados configurado para autenficação Azure AD e um banco de dados MySql online modelo DTU Basic.
 # Documentação
 
 <ol>
