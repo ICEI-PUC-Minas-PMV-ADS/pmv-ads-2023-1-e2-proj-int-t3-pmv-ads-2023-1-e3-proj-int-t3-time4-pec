@@ -8,8 +8,8 @@
 
 ## Instruções de utilização
 
-------> Link da aplicação online: https://prontclinic.azurewebsites.net/<------
-------> Vídeo da aplicação online: https://www.loom.com/share/f8eea3b18b8d4f3698bb52db2f17c4db <------
+ * ------> Link da aplicação online: https://prontclinic.azurewebsites.net/<------
+ * ------> Vídeo de funcionamento da aplicação online disponível no Loom pelo link: https://www.loom.com/share/f8eea3b18b8d4f3698bb52db2f17c4db <------
 
 Login: carlos@gmail.com
 Senha: 123
